@@ -1,6 +1,5 @@
 ﻿using Google.Apis.Auth.OAuth2;
 using Google.Apis.Sheets.v4;
-using Google.Apis.Sheets.v4.Data;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using System;
@@ -10,6 +9,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System.Collections.Specialized;
+
+using Data = Google.Apis.Sheets.v4.Data;
 
 namespace SheetsQuickstart
 {
@@ -17,19 +20,25 @@ namespace SheetsQuickstart
     {
         // If modifying these scopes, delete your previously saved credentials
         // at ~/.credentials/sheets.googleapis.com-dotnet-quickstart.json
-        static string[] Scopes = { SheetsService.Scope.SpreadsheetsReadonly };
-        static string ApplicationName = "Google Sheets API .NET Quickstart";
+        static string[] Scopes = { SheetsService.Scope.Spreadsheets };
+        static string ApplicationName = "Google Sheet to CSV";
+
+        static NameValueCollection callTime = new NameValueCollection()
+        {
+            { "Morning", "100000000"  },
+            { "Afternoon", "100000001" },
+            { "Evening", "100000002" }
+        };
 
         static void Main(string[] args)
         {
             UserCredential credential;
-
             using (var stream =
                 new FileStream("client_secret.json", FileMode.Open, FileAccess.Read))
             {
                 string credPath = System.Environment.GetFolderPath(
                     System.Environment.SpecialFolder.Personal);
-                credPath = Path.Combine(credPath, ".credentials/sheets.googleapis.com-dotnet-quickstart.json");
+                credPath = Path.Combine(credPath, ".credentials/sheets.googleapis.com-dotnet-Sheetstocsv.json");
 
                 credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
                     GoogleClientSecrets.Load(stream).Secrets,
@@ -39,7 +48,6 @@ namespace SheetsQuickstart
                     new FileDataStore(credPath, true)).Result;
                 Console.WriteLine("Credential file saved to: " + credPath);
             }
-
             // Create Google Sheets API service.
             var service = new SheetsService(new BaseClientService.Initializer()
             {
@@ -48,29 +56,40 @@ namespace SheetsQuickstart
             });
 
             // Define request parameters.
-            String spreadsheetId = "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms";
-            String range = "Class Data!A2:E";
-            SpreadsheetsResource.ValuesResource.GetRequest request =
-                    service.Spreadsheets.Values.Get(spreadsheetId, range);
+            String spreadsheetId = "1_VKKZ5J0DkBrx-Xi--4OEhkgpsdUSQIX5f2yV2U_4yU";
+            string range = "A2:I";
 
-            // Prints the names and majors of students in a sample spreadsheet:
-            // https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
-            ValueRange response = request.Execute();
+            SpreadsheetsResource.ValuesResource.GetRequest request = service.Spreadsheets.Values.Get(spreadsheetId, range);
+
+            Data.ValueRange response = request.Execute();
             IList<IList<Object>> values = response.Values;
+            StreamWriter file = new StreamWriter("Lead_Sheet.csv");
+            string[] headers =new string[] {"+new_createdon", "firstname", "lastname", "address1_postalcode", "emailaddress1", "telephone2", "new_isprimaryphonecellphone", "*new_besttimetocall", "subject" };
+            file.Write("Entity, +new_createdon, firstname, lastname, address1_postalcode, emailaddress1, telephone2, new_isprimaryphonecellphone, *new_besttimetocall, subject\n");
             if (values != null && values.Count > 0)
             {
-                Console.WriteLine("Name, Major");
                 foreach (var row in values)
                 {
-                    // Print columns A and E, which correspond to indices 0 and 4.
-                    Console.WriteLine("{0}, {1}", row[0], row[4]);
+                    file.Write("lead, ");
+                    for(int i = 0; i < row.Count; i ++)
+                    {
+                        if(i == row.Count-1)
+                        {
+                            file.Write(row[i] + "\n");
+                        }
+                        else if(headers[i] == "*new_besttimetocall")
+                        {
+                            file.Write(callTime[row[i].ToString()] + ", ");
+                        }
+                        else
+                        {
+                            file.Write(row[i] + ", ");
+                        }
+                        
+                    }
                 }
             }
-            else
-            {
-                Console.WriteLine("No data found.");
-            }
-            Console.Read();
+            //Console.Read();
 
 
         }
