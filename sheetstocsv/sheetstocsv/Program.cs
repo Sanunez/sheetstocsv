@@ -77,6 +77,10 @@ namespace SheetsQuickstart
                         {
                             file.Write(row[i] + "\n");
                         }
+                        else if (headers[i] == "telephone2")
+                        {
+                            file.Write(row[i].ToString().Replace(" ", "") + ", ");
+                        }
                         else if(headers[i] == "*new_besttimetocall")
                         {
                             file.Write(callTime[row[i].ToString()] + ", ");

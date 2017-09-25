@@ -2,7 +2,7 @@ Entity, +new_createdon, firstname, lastname, address1_postalcode, emailaddress1,
 lead, 7/25/2017 14:47:12, Jara, Damessa, 75061, jlove3390@gmail.com, 2146801246, Yes, , renters
 lead, 7/25/2017 14:59:29, adolfo, guerrero, 92336, agtile@live.com, 9098226315, No, , Life
 lead, 7/25/2017 15:11:18, Tina, Gorbett, 85335, tinazsmokey@yahoo.com, 4808238709, Yes, 100000001, Motorcycle
-lead, 7/25/2017 15:20:57, Delia, Vega, 95670, rachelvega65@gmail.com, 916 3295024, Yes, , renters
+lead, 7/25/2017 15:20:57, Delia, Vega, 95670, rachelvega65@gmail.com, 9163295024, Yes, , renters
 lead, 7/25/2017 15:58:42, adam, samia, 78705, AdamSamia3@yahoo.com, 8328182419, Yes, , renters
 lead, 7/25/2017 16:20:53, Louis, Torres, 92408, brandyscabinets@gmail.com, 9097716080, Yes, , SeguroParaDueNoDeNegocio
 lead, 7/25/2017 16:38:44, brenda, velez, 92591, velez573@gmail.com, 7608286131, Yes, , renters
@@ -11,7 +11,7 @@ lead, 7/25/2017 16:53:28, Yesika, Cervantes, 75056, yesika30skyy@gmail.com, 214-
 lead, 7/25/2017 17:48:51, Lovely, Tacmo, 95124, ltacmo27@gmail.com, 4086088131, Yes, , renters
 lead, 7/25/2017 18:52:55, Robert, Malasek, 92064, rtmalasek@gmail.com, 7606078268, Yes, , renters
 lead, 7/25/2017 19:22:08, Rafael, de la Fuente Cisnero, 33175, rafa.pita1995@gmail.com, 3053164843, Yes, , SeguroMedico
-lead, 7/25/2017 19:47:13, lisa, hamm, 18042, hamm9121@yahoo.com, 610 515 8758, No, 100000000, Renters
+lead, 7/25/2017 19:47:13, lisa, hamm, 18042, hamm9121@yahoo.com, 6105158758, No, 100000000, Renters
 lead, 7/25/2017 19:57:11, Jesse, Lerma, 78201, jesselerma92@gmail.com, 2109937445, Yes, , renters
 lead, 7/25/2017 20:17:29, Albert, Baldovinos, 93662, albertbaldovinos11@gmail.com, 5594809218, Yes, , Home
 lead, 7/25/2017 20:18:08, Audias, Barajas, 93662, albertbaldovinos11@gmail.com, 5594809218, Yes, , Home
@@ -59,7 +59,7 @@ lead, 7/26/2017 21:35:18, Lamar, Neal, 92504, lamarkeon@ymail.com, 9513769398, Y
 lead, 7/26/2017 21:46:20, Rosa, Linares, 93535, linaresrosy1375@gmail.com, 6617941531, Yes, 100000000, AutoComercial
 lead, 7/26/2017 22:12:58, Christopher, Delgrego, 32784, chrisdelgrego1217@yahoo.com, 3522880898, No, 100000000, Boat
 lead, 7/26/2017 22:15:46, christopher, Delgrego, 32784, chrisdelgrego1217@yahoo.com, 352-288-0898, No, , renters
-lead, 7/27/2017 9:33:01, Emilio, sanchez, 93550, emilio03ger@gmail.com, 1818 2774405, Yes, , Home
+lead, 7/27/2017 9:33:01, Emilio, sanchez, 93550, emilio03ger@gmail.com, 18182774405, Yes, , Home
 lead, 7/27/2017 9:49:06, PATRICIA, SHACKLES, 78754, ATXGAL67@YAHOO.COM, 5125421186, Yes, , renters
 lead, 7/27/2017 10:07:48, mayra, gonzalez, 92026, mayra_j73@hotmail.com, 3238422120, Yes, , renters
 lead, 7/27/2017 10:21:34, Elizabeth, martinez, 75253, carlos.tribox@gmail.com, 4698026235, Yes, , Casa
@@ -251,7 +251,7 @@ lead, 8/2/2017 0:22:00, julio, hernandez, 92113, juliohgmd@yahoo.com.mx, 6197193
 lead, 8/2/2017 8:33:17, Evelia, Maldonado, 77088, emaldonado879@gmail.com, 8323735920, Yes, , Casa
 lead, 8/2/2017 8:36:21, Kenyetta, Kelly, 30273, keke.kelly30@gmail.com, 6785369725, Yes, 100000001, CommercialAuto
 lead, 8/2/2017 8:57:35, Fabiano, Neves, 94903, neves1000@gmail.com, 4154979330, Yes, , renters
-lead, 8/2/2017 9:54:34, Marvin, Marcano, 33027, abgmarvin@gmail.com, 786 4474523, Yes, 100000001, VehiculoRecreativo
+lead, 8/2/2017 9:54:34, Marvin, Marcano, 33027, abgmarvin@gmail.com, 7864474523, Yes, 100000001, VehiculoRecreativo
 lead, 8/2/2017 10:14:11, joseph, webb, 77373, plexar2277@gmail.com, 7133772476, Yes, 100000000, Motorcycle
 lead, 8/2/2017 10:46:07, Darryl, Brazell, 77598, sherrillaspen86@gmail.com, 2812544061, Yes, , renters
 lead, 8/2/2017 11:18:54, Jaime, Figueroa, 90860, jaimefigueroa79@yahoo.com, 7147202790, Yes, 100000000, CommercialAuto
@@ -263,8 +263,8 @@ lead, 8/2/2017 12:30:20, Kati, Kesselmann, 77450, kati.kesselmann@gmail.com, 281
 lead, 8/2/2017 12:59:35, maricela, flores, 92802, kakito16@gmail.com, 7143994982, Yes, , inquilino
 lead, 8/2/2017 13:01:20, DONITTI, WHITT, 85042, GERIKWHITT@GMAIL.COM, 4804103244, Yes, , renters
 lead, 8/2/2017 13:13:12, rkadf, adlkda, 90001, adkfjslf@adg.com, 2222222222, No, , Home
-lead, 8/2/2017 14:07:58, Reina, Martinez, 33428, marroquinreina1030@gmail.com, 954 4716998, Yes, 100000000, Casa
-lead, 8/2/2017 14:08:35, Reina, Martinez, 33428, marroquinreina1030@gmail.com, 954 4716998, Yes, 100000000, Casa
+lead, 8/2/2017 14:07:58, Reina, Martinez, 33428, marroquinreina1030@gmail.com, 9544716998, Yes, 100000000, Casa
+lead, 8/2/2017 14:08:35, Reina, Martinez, 33428, marroquinreina1030@gmail.com, 9544716998, Yes, 100000000, Casa
 lead, 8/2/2017 14:45:11, Karen, Presetti, 85704, kjpmasters@msn.com, 7605008148, Yes, , renters
 lead, 8/2/2017 15:00:37, richard, lipman, 33437, boris@briarwoodinsuranceser.com, 9174066755, Yes, 100000000, Home
 lead, 8/2/2017 15:54:13, anthony, okolie, 75287, ceo4sure@gmail.com, 9176052558, Yes, , Health
@@ -349,7 +349,7 @@ lead, 8/4/2017 16:50:22, orlando, trenque, 33023, orlando_trenque@hotmail.com, 3
 lead, 8/4/2017 16:55:07, Zulayma, Lopez Mena, 77449, zlopezmena@yahoo.com, 505-385-9651, Yes, , inquilino
 lead, 8/4/2017 17:36:53, Lavonna, Garrett, 95341, lavee624@gmail.com, 2096289586, Yes, , Home
 lead, 8/4/2017 22:57:14, ruben, garcia, 92236, garzap78@gmail.com, 7608990424, Yes, , SeguroMedico
-lead, 8/4/2017 23:31:33, Eva, Martinez, 95122, evam13@sncglobal.net, 408 431 7696, Yes, , Home
+lead, 8/4/2017 23:31:33, Eva, Martinez, 95122, evam13@sncglobal.net, 4084317696, Yes, , Home
 lead, 8/5/2017 1:26:00, Nestor, Merino, 32034, emuz.13njmm@gmail.com, 9045840711, Yes, , Health
 lead, 8/5/2017 10:12:43, bobby, keith, 77536, damnitbk@yahoo.com, 832-414-8265, Yes, , Home
 lead, 8/5/2017 13:29:20, Veronica, Hernandez, 75217, carbajal2013@gmail.com, 2144681678, Yes, , Home
@@ -410,93 +410,93 @@ lead, 8/7/2017 20:28:51, diana, galindo, 78211, dianagalindo70@yahoo.com, 562991
 lead, 8/7/2017 20:40:25, Nelson, Dominguez, 33325, nelsonkiry@yahoo.com, 7866638941, Yes, 100000001, CasaMovil
 lead, 8/7/2017 23:38:51, TYLER, FINLEY, 90680, TYFIN85@GMAIL.COM, 5625286364, Yes, , Home
 lead, 8/7/2017 23:47:05, TYLER, FINLEY, 90680, TYFIN85@GMAIL.COM, 5625286364, Yes, , Home
-lead, 8/8/2017 0:26:30, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:33, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:36, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:37, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:40, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:40, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:40, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:46, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:47, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:47, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:49, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:49, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:50, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:50, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:26:56, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:00, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:02, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:02, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:02, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:04, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:04, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:04, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:04, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:08, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:11, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:11, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:14, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:15, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:15, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:15, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:15, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:33, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:34, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:34, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:35, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:35, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:37, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:27:37, Nelson, Portill9, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:35:45, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:35:46, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:35:46, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:35:52, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:35:58, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:03, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:05, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:05, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:06, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:06, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:10, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:12, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:12, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:13, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:13, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:14, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:17, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:18, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:18, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:38, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:39, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:36:39, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
-lead, 8/8/2017 0:37:05, Nelson, Portillo, 77072, jackelineg273@gmail.com, 713 5483299, Yes, , Casa
+lead, 8/8/2017 0:26:30, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:33, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:36, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:37, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:40, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:40, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:40, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:41, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:46, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:47, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:47, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:49, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:49, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:50, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:50, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:26:56, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:00, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:01, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:02, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:02, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:02, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:03, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:04, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:04, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:04, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:04, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:08, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:09, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:11, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:11, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:14, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:15, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:15, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:15, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:15, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:33, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:34, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:34, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:35, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:35, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:37, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:27:37, Nelson, Portill9, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:35:45, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:35:46, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:35:46, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:35:52, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:35:58, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:03, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:05, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:05, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:06, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:06, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:09, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:10, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:12, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:12, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:13, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:13, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:14, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:17, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:18, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:18, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:38, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:39, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:36:39, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
+lead, 8/8/2017 0:37:05, Nelson, Portillo, 77072, jackelineg273@gmail.com, 7135483299, Yes, , Casa
 lead, 8/8/2017 1:18:04, Jane, Rivas, 94947, janebrivas@gmail.com, 8184331573, Yes, , Home
 lead, 8/8/2017 4:38:43, Rachel, Crespo, 32807, Latinangel537@yahoo.com, 4072553555, No, 100000002, Life
 lead, 8/8/2017 8:15:09, Taurus, McKnight, 30253, mcknight.tl@gmail.com, 6786430786, Yes, 100000000, CommercialAuto
@@ -542,7 +542,7 @@ lead, 8/9/2017 14:26:33, Maynor, Mendez, 90004, maynormendezlopez@yahoo.com, 310
 lead, 8/9/2017 14:45:32, Javier, Villalobos, 75056, javi050809@gmail.com, 469-600-6787, Yes, 100000001, CommercialAuto
 lead, 8/9/2017 15:18:12, joaquin, aquino, 95132, joaqsaquino@gmail.com, 2134228936, Yes, , CommercialGeneralLiability
 lead, 8/9/2017 16:01:43, Kathy, King, 34285, telajo@yahoo.com, 9415921101, Yes, , BusinessOwnerPolicy
-lead, 8/9/2017 16:10:43, Daniel, Ricardo, 78745, danytrucking050@gmail.com, 512 373-5005, Yes, 100000000, AutoComercial
+lead, 8/9/2017 16:10:43, Daniel, Ricardo, 78745, danytrucking050@gmail.com, 512373-5005, Yes, 100000000, AutoComercial
 lead, 8/9/2017 16:12:22, lynn, Olkowski, 85335, privacylynno@gmail.com, 4804907141, Yes, , renters
 lead, 8/9/2017 18:51:45, Nicholas, hammond, 30016, Nicholasnoelhammond@yahoo.com, 6787548324, Yes, 100000001, CommercialAuto
 lead, 8/9/2017 19:47:17, Oscar, Rodriguez, 77449, netoz1218@gmail.com, 7132775610, Yes, 100000002, MobileHome
@@ -614,7 +614,7 @@ lead, 8/11/2017 13:00:07, Chyreesha, Young, 77095, chyreeshayoung@gmail.com, 346
 lead, 8/11/2017 13:10:42, steven, appleton, 90039, lariversteve@gmail.com, 3107407294, Yes, 100000000, CommercialAuto
 lead, 8/11/2017 13:17:15, Jasmine, Samuel, 77338, jasmine.samuel424@gmail.com, 8329239921, Yes, , renters
 lead, 8/11/2017 13:47:56, Edgar, Chavez, 90606, chavezedgar07@hotmail.com, 5627395963, Yes, , Home
-lead, 8/11/2017 13:53:13, Susan, De La Cruz, 91387, sadi121@hotmail.com, (323) 422-6623, Yes, , renters
+lead, 8/11/2017 13:53:13, Susan, De La Cruz, 91387, sadi121@hotmail.com, (323)422-6623, Yes, , renters
 lead, 8/11/2017 14:04:02, Test, Test, 90201, test@test.com, 2222222222, Yes, 100000000, CommercialAuto
 lead, 8/11/2017 14:11:14, Edgar, Chavez, 90606, chavezedgar07@hotmail.com, 5627395963, Yes, , Home
 lead, 8/11/2017 14:24:04, Charmanika, Williams, 33511, nikawilliams18@gmail.com, 8137282219, No, , renters
@@ -634,7 +634,7 @@ lead, 8/11/2017 19:54:56, Margarita, Perez, 78753, wwwmagalyperez@yahoo.com, 151
 lead, 8/11/2017 21:29:52, Latisha, Castrejon, 92530, castrejon1378@gmail.com, 9514230736, Yes, , Home
 lead, 8/11/2017 21:30:27, Latisha, Castrejon, 92530, castrejon1378@gmail.com, 9514230736, Yes, , Home
 lead, 8/11/2017 22:07:59, Latisha, Castrejon, 92530, castrejon1378@gmail.com, 9514230736, Yes, , Home
-lead, 8/12/2017 3:43:42, Ervin, Siles, 92509, ervinjrsilez@gmail.com, 310 850 2308, No, 100000002, Motocicleta
+lead, 8/12/2017 3:43:42, Ervin, Siles, 92509, ervinjrsilez@gmail.com, 3108502308, No, 100000002, Motocicleta
 lead, 8/12/2017 6:16:58, Sandra, Gallegos, 77017, Cisneros327@gmail.com, 8323489563, No, , Life
 lead, 8/12/2017 9:04:22, Teresa, Gonzalez, 92571, teresa.gonzalez@puhsd.org, 9514355217, Yes, 100000002, CommercialAuto
 lead, 8/12/2017 9:48:44, Brie, Sagoba, 92705, brisagona@gmail.com, 7147494204, Yes, , renters
@@ -666,7 +666,7 @@ lead, 8/13/2017 16:54:13, Amado, Arreola, 77055, md111gzz@gmail.com, 9799220824,
 lead, 8/13/2017 16:54:20, Amado, Arreola, 77055, md111gzz@gmail.com, 9799220824, Yes, , Health
 lead, 8/13/2017 16:59:18, Jerry, Rodriguez, 92173, rodriguez.jerry@gmail.com, 619-7486918, Yes, , renters
 lead, 8/13/2017 17:02:16, Jon, Krick, 85255, jon@pedegonorthscottsdale.com, 3094726120, Yes, 100000000, CommercialAuto
-lead, 8/13/2017 17:06:36, daniel, mcnees, 91040, bbgardens@verizon.net, 818 679 1077, Yes, 100000000, CommercialAuto
+lead, 8/13/2017 17:06:36, daniel, mcnees, 91040, bbgardens@verizon.net, 8186791077, Yes, 100000000, CommercialAuto
 lead, 8/13/2017 18:16:50, Roberto, Corzo, 77095, corzocas@att.net, 7133016148, Yes, , renters
 lead, 8/13/2017 18:23:22, Luis, Puentes, 33139, andy830531@gmail.com, 7863896377, Yes, 100000000, commercial
 lead, 8/13/2017 18:24:11, Jeri, Keck, 92111, jerilkeck@yahoo.com, 6192062532, Yes, , renters
@@ -689,7 +689,7 @@ lead, 8/14/2017 11:03:50, Michael, Moran, 94509, ticomike69@gmail.com, 925207803
 lead, 8/14/2017 11:04:21, Michael, Moran, 94509, ticomike69@gmail.com, 9252078030, Yes, 100000002, CommercialAuto
 lead, 8/14/2017 11:35:54, ana, torna, 34473, jgtrinity@hotmail.com, 3525668900, Yes, 100000001, Home
 lead, 8/14/2017 11:38:30, ana, torna, 34473, jgtrinity@hotmail.com, 3525668900, Yes, 100000001, Home
-lead, 8/14/2017 12:23:17, Anthony, Meza, 91731, ameza@excelpaving.net, 5628335799. 5625995841, Yes, 100000001, Motorcycle
+lead, 8/14/2017 12:23:17, Anthony, Meza, 91731, ameza@excelpaving.net, 5628335799.5625995841, Yes, 100000001, Motorcycle
 lead, 8/14/2017 13:07:39, Alfred, Meadows, 76112, athomm@aol.com, 6825564683, Yes, , Home
 lead, 8/14/2017 13:22:25, Michael, Martin, 91504, martinmichael784@gmail.com, 9519611078, Yes, 100000002, Motorcycle
 lead, 8/14/2017 14:07:02, Glenn, Brown, 75038, gbrown40699@yahoo.com, 8173004495, Yes, , Home
@@ -728,13 +728,13 @@ lead, 8/15/2017 10:34:10, Charlene, Aylor, 29669, rc16832003@yahoo.com, 864-365-
 lead, 8/15/2017 10:35:02, carlos, rocha, 94565, cerocha925@gmail.com, 9253292395, Yes, 100000002, CommercialAuto
 lead, 8/15/2017 11:06:59, Ana, Martinez, 93291, ana.martinezolivera@gmail.com, 5597506049, Yes, 100000001, CommercialAuto
 lead, 8/15/2017 12:13:06, Francisco, Leonzo, 77034, franciscoleonzo@yahoo.com, 7135059617, Yes, , Vida
-lead, 8/15/2017 12:54:01, Manuel, Rubio, 92139, merman1@pacbell.net, 619 479 0996, No, 100000002, CommercialAuto
+lead, 8/15/2017 12:54:01, Manuel, Rubio, 92139, merman1@pacbell.net, 6194790996, No, 100000002, CommercialAuto
 lead, 8/15/2017 13:03:44, Wendy, Hernandez, 95307, wendyjhernande09@yahoo.com, 2098097257, Yes, , Home
 lead, 8/15/2017 13:04:36, Sabrina, Ellis Friday, 32097-8612, bahrainbrina@yahoo.com, 4787185758, Yes, 100000001, CommercialAuto
 lead, 8/15/2017 13:09:45, cristina, kalitskaya, 33181, cristina.elite@yahoo.com, 786-955-6250, No, 100000000, commercial
 lead, 8/15/2017 13:43:03, Henry, Reyes, 90280, henryreyes79@yahoo.com, 3109440260, Yes, , renters
 lead, 8/15/2017 13:46:50, Miguel, Acosta, 85201, acostamiguel7@live.com, 4806673558, Yes, 100000000, CommercialAuto
-lead, 8/15/2017 13:54:19, Antonio, Alonzo, 75214, Berkshire.Alonzo@email.com, 469 664 8136, Yes, , renters
+lead, 8/15/2017 13:54:19, Antonio, Alonzo, 75214, Berkshire.Alonzo@email.com, 4696648136, Yes, , renters
 lead, 8/15/2017 14:15:26, lesly, Garay, 75050, kellywaleska@yahoo.com, 9728359404, Yes, , renters
 lead, 8/15/2017 14:45:32, Carlos, Garcia, 93704, carlos_072493@hotmail.com, 5592509852, Yes, 100000000, CommercialAuto
 lead, 8/15/2017 14:48:07, Samuel, Castillo, 91016, charge@sammycastillo.com, 6269216726, Yes, , renters
@@ -887,7 +887,7 @@ lead, 8/21/2017 9:44:45, james, connolly, 92173, jconnolly@vertekllc.com, 619-59
 lead, 8/21/2017 10:00:09, ERICK, SANCHEZ, 92627, eric3844@gmail.com, 9496898247, Yes, 100000000, CommercialAuto
 lead, 8/21/2017 10:05:10, JAMES, CONNOLLY, 92173, jconnolly@vertekllc.com, 619-598-9417, Yes, , Health
 lead, 8/21/2017 10:14:40, Karina, Ripley, 92410, mrs_karina87@yahoo.com, 7147680138, Yes, , Home
-lead, 8/21/2017 11:08:23, Ever M, Hernandez, 77086, ever.rockmastercountertops@live.com, 281 704 9744, Yes, 100000001, CommercialAuto
+lead, 8/21/2017 11:08:23, Ever M, Hernandez, 77086, ever.rockmastercountertops@live.com, 2817049744, Yes, 100000001, CommercialAuto
 lead, 8/21/2017 11:09:04, Christopher, LeBlanc, 92154, chris1leblanc@hotmail.com, 5203939904, Yes, , Home
 lead, 8/21/2017 11:12:32, Christopher, LeBlanc, 92154, chris1leblanc@hotmail.com, 5203939904, Yes, , Home
 lead, 8/21/2017 11:23:47, Ricardo, Lopez, 91761, ricardo@primesps.com, 9099866400, Yes, 100000000, CommercialAuto
@@ -1021,12 +1021,12 @@ lead, 8/24/2017 12:06:30, Yuleivis, Padilla, 77084, myillusionreceptionhall@yaho
 lead, 8/24/2017 12:45:37, Mary, LaFollette, 77009, malafollette@gmail.com, 2816355238, Yes, , Home
 lead, 8/24/2017 13:08:40, Percy, Green, 90802, Percy.Green@gmail.com, 818-314-9079, Yes, 100000000, RV
 lead, 8/24/2017 13:54:43, Oscar, Vega, 95391, o-vega@sbcglobal.net, 4088075347, Yes, , Home
-lead, 8/24/2017 14:01:08, Carolina, Peña, 75217, tiopavin@hotmail.com, 954 4708126, Yes, , renters
+lead, 8/24/2017 14:01:08, Carolina, Peña, 75217, tiopavin@hotmail.com, 9544708126, Yes, , renters
 lead, 8/24/2017 14:20:34, Abraham, Wubneh, 30052, abrahamwubneh@yahoo.com, 4045797031, Yes, 100000002, CommercialAuto
 lead, 8/24/2017 14:29:50, Justin, Hartsfield, 77354, ahartsfield@gmail.com, 9032531304, Yes, , renters
-lead, 8/24/2017 14:44:46, francisco, diaz, 95377, provemex2@yahoo.com, 209 5976393, Yes, 100000000, CommercialAuto
+lead, 8/24/2017 14:44:46, francisco, diaz, 95377, provemex2@yahoo.com, 2095976393, Yes, 100000000, CommercialAuto
 lead, 8/24/2017 15:56:14, Demetra, Wallace, 77077, demetrawallace@outlook.com, 3372812763, Yes, , renters
-lead, 8/24/2017 16:14:41, Rose Marie, Bobadilla, 90805, Cherubim.4370@gmail.com, 562 441-5769, Yes, , Life
+lead, 8/24/2017 16:14:41, Rose Marie, Bobadilla, 90805, Cherubim.4370@gmail.com, 562441-5769, Yes, , Life
 lead, 8/24/2017 16:47:07, Steve, Molina, 92123, stvmolia@gmail.com, 6198315616, Yes, 100000001, Motorcycle
 lead, 8/24/2017 17:17:50, Terrell, Thomas, 77073, terrellthomas1@outlook.com, 7132911876, Yes, 100000002, Flood
 lead, 8/24/2017 17:44:04, Eva, Martinez, 95126, evam13@sbcglobal.net, 40804317696, Yes, , Home
@@ -1111,7 +1111,7 @@ lead, 8/26/2017 18:51:52, Edwin, Santos, 77449, nalle.dipersio@gmail.com, 832-43
 lead, 8/26/2017 18:52:06, Edwin, Santos, 77449, nalle.dipersio@gmail.com, 832-439-3505, Yes, , renters
 lead, 8/26/2017 19:23:39, Elmer, Martinez, 78589, elmermtz82@gmail.com, 9565697934, Yes, 100000002, Bote
 lead, 8/26/2017 19:27:17, mario, lopez ortega, 92173, mariolopez223@icloud.com, 6192126207, Yes, 100000000, Motorcycle
-lead, 8/26/2017 19:52:57, Cesar, Galarza, 33549, cgalarza1965@gmail.com, 276 -776-9457, Yes, 100000001, CasaMovil
+lead, 8/26/2017 19:52:57, Cesar, Galarza, 33549, cgalarza1965@gmail.com, 276-776-9457, Yes, 100000001, CasaMovil
 lead, 8/26/2017 20:54:02, Lupe, torrens, 34237, lupetorrens@gmail.com, 9418796471, Yes, 100000000, Casa
 lead, 8/26/2017 22:10:51, luis, contreras, 33178, contrerasla@gmail.com, 7865438579, Yes, 100000000, VehiculoTodoTerreno
 lead, 8/26/2017 22:52:30, wilber, gonzalez, 33186, meli_1024@yahoo.com, 7862271075, Yes, 100000002, Home
@@ -1200,7 +1200,7 @@ lead, 8/29/2017 11:09:54, Alex, Crowell, 91606, alex@andresautobody.com, 6619476
 lead, 8/29/2017 11:15:23, Gustavo, Garcia, 76226, mariefergar07@gmail.com, 9407352730, Yes, 100000001, CommercialAuto
 lead, 8/29/2017 12:06:09, Ricard, Cotty, 32771, rdiego4955@gmail.com, 4074161846, Yes, , inquilino
 lead, 8/29/2017 12:57:29, yulienis, real, 33032, yulireale@yahoo.es, 3053016740, Yes, 100000002, Life
-lead, 8/29/2017 13:18:53, enrique, gutierrez, 93702, gtz.enrique@yahoo.com, 559 4058823, Yes, , Home
+lead, 8/29/2017 13:18:53, enrique, gutierrez, 93702, gtz.enrique@yahoo.com, 5594058823, Yes, , Home
 lead, 8/29/2017 13:29:39, ivan, BEAUSIER, 77346, ivanbeausier@nirsa.com, 8322972162, Yes, 100000000, Inundacion
 lead, 8/29/2017 13:35:26, Cesar, Malaga, 34105, ces_malaga13@hotmail.com, 2392989690, Yes, , renters
 lead, 8/29/2017 13:45:26, Eric, Cardoza, 33165, soniagonza@hotmail.com, 3057633359, Yes, , SeguroMedico
@@ -1208,14 +1208,14 @@ lead, 8/29/2017 13:47:56, Eric, Cardoza, 33165, soniagonza@hotmail.com, 30576333
 lead, 8/29/2017 14:19:01, Amanuel, Tesfamariam, 75231, alma9899@gmail.com, 2145152349, Yes, , renters
 lead, 8/29/2017 14:55:24, DeAngelo, Davis, 30253, dngl_davis@yahoo.com, 7706309603, Yes, 100000001, CommercialAuto
 lead, 8/29/2017 15:01:27, yanitse, cordero, 33713, javier.cano55@gmail.com, 7273313012, Yes, , CommercialGeneralLiability
-lead, 8/29/2017 15:31:34, Fabiola, Moncayo, 33428, fabiolamoncayo65@gmail.com, 561 403 9903, Yes, 100000001, Casa
+lead, 8/29/2017 15:31:34, Fabiola, Moncayo, 33428, fabiolamoncayo65@gmail.com, 5614039903, Yes, 100000001, Casa
 lead, 8/29/2017 16:58:48, Willie, Valyan, 77396, Willie.valyan@gmail.com, 2817146490, Yes, , renters
 lead, 8/29/2017 17:04:22, Julian Gomez, Bernal, 91321, carlos@sagazinsurance.com, 6612598843, Yes, 100000000, CommercialAuto
 lead, 8/29/2017 17:07:59, Eric, Weber, 76011, eweber50412@gmail, 504-206-8502, Yes, 100000002, CommercialAuto
 lead, 8/29/2017 17:21:59, marcel, ferrer, 33193, marcellferrer@yahoo.com4, 786424621, Yes, 100000000, Home
 lead, 8/29/2017 17:58:35, byron, martinez, 92553, byronakahazard@gmail.com, 9515657684, Yes, , renters
 lead, 8/29/2017 18:25:00, Christian, Zuluaga, 92612, zuluagachristian85@gmail.com, 3236743598, Yes, , renters
-lead, 8/29/2017 19:00:59, brittany ., payne, 33433, bpayne@telecomsouth.net, 954 2907369, Yes, , renters
+lead, 8/29/2017 19:00:59, brittany ., payne, 33433, bpayne@telecomsouth.net, 9542907369, Yes, , renters
 lead, 8/29/2017 19:17:22, Arthur, Martinot, 90065, amartinot@gmail.com, 2133087767, Yes, 100000002, CommercialAuto
 lead, 8/29/2017 19:19:22, Dale, Bonocore, 91604, dbonocore@ajbonocore.com, 631-219-0330, Yes, , CommercialGeneralLiability
 lead, 8/29/2017 20:32:16, Don, Bare, 85202, info@barecosport.com, 1115556767, Yes, 100000001, CommercialAuto
@@ -1233,7 +1233,7 @@ lead, 8/30/2017 11:48:02, Diego, Valles, 93307, papuvalles@gmail.com, 6612315306
 lead, 8/30/2017 11:48:44, Diego, Valles, 93307, papuvalles@gmail.com, 6612315406, Yes, 100000001, CommercialAuto
 lead, 8/30/2017 12:15:39, leandro, alfonso, 33415, smartechnologyfl@gmail.com, 5612603745, Yes, 100000001, commercial
 lead, 8/30/2017 12:23:03, vanessa, perez, 34741, nessacaro19@gmail.com, 4075298302, Yes, , inquilino
-lead, 8/30/2017 12:49:23, Rick, Barajas Sr, 91790, rickbarajassr@gmail.com, (626) 290-7281, Yes, 100000001, CommercialAuto
+lead, 8/30/2017 12:49:23, Rick, Barajas Sr, 91790, rickbarajassr@gmail.com, (626)290-7281, Yes, 100000001, CommercialAuto
 lead, 8/30/2017 13:03:18, Weldon, Fairall, 33843, deelea_50@yahoo.com, 8634840536, Yes, 100000002, RV
 lead, 8/30/2017 13:16:07, Sara, Groves, 85016, azjamtram@gmail.com, 6788295268, Yes, 100000001, CommercialAuto
 lead, 8/30/2017 13:16:15, Sara, Groves, 85016, azjamtram@gmail.com, 6788295268, Yes, 100000001, CommercialAuto
@@ -1247,10 +1247,10 @@ lead, 8/30/2017 14:16:54, Rosalinda, Rodriguez, 78223, rosalinda.rodriguez@hhsc.
 lead, 8/30/2017 14:59:41, arsalan, farhangzare, 91403, ars.farhang@gmail.com, 3108897029, Yes, 100000002, CommercialAuto
 lead, 8/30/2017 16:21:45, Roberto, Gomez, 33016, robecalabazar@aol.com, 7864191428, Yes, 100000001, Motorcycle
 lead, 8/30/2017 16:23:50, a, a, 12345, a@b.com, 111-111-1111, No, 100000000, CommercialAuto
-lead, 8/30/2017 17:27:29, Maria, Flores, 78228, f7cisneros@hotmail.com, 210 4128087, Yes, , SeguroParaDueNoDeNegocio
+lead, 8/30/2017 17:27:29, Maria, Flores, 78228, f7cisneros@hotmail.com, 2104128087, Yes, , SeguroParaDueNoDeNegocio
 lead, 8/30/2017 17:33:32, Juan carlos, Tejeda, 32825, juanctejedat@yahoo.es, 7863807977, Yes, , inquilino
 lead, 8/30/2017 18:16:48, James, White, 77069, jwhite795@gmail.com, 713-876-9547, Yes, , renters
-lead, 8/30/2017 18:36:59, Chafik, Goumghar, 91406, chafikgoumghar71@gmail.com, 213 7050225, Yes, 100000000, CommercialAuto
+lead, 8/30/2017 18:36:59, Chafik, Goumghar, 91406, chafikgoumghar71@gmail.com, 2137050225, Yes, 100000000, CommercialAuto
 lead, 8/30/2017 19:09:24, Ricard, Cotty, 32771, rdiego4955@gmail.com, 4074161846, Yes, , inquilino
 lead, 8/30/2017 19:20:49, Ricard, Cotty, 32771, rdiego4955@gmail.com, 4074161846, Yes, , inquilino
 lead, 8/30/2017 19:28:14, Ricard, Cotty, 32771, rdiego4955@gmail.com, 4074161846, Yes, , inquilino
@@ -1328,7 +1328,7 @@ lead, 9/1/2017 15:11:25, Ricard, Cotty, 32771, rdiego4955@gmail.com, 4074161846,
 lead, 9/1/2017 15:26:33, Ricard, Cotty, 32771, rdiego4955@gmail.com, 4074161846, Yes, , inquilino
 lead, 9/1/2017 15:30:30, alex, cabrera, 91766, a.cabrera8820@gmial.com, 9095248343, Yes, 100000002, Motorcycle
 lead, 9/1/2017 16:14:04, Cory, moxon, 31097, Corymoxon@yahoo.com, 7705842285, Yes, 100000001, CommercialAuto
-lead, 9/1/2017 16:35:47, David, Deras, 77022, davidderas09@gmail.com, 713 398 98 79, Yes, 100000001, Inundacion
+lead, 9/1/2017 16:35:47, David, Deras, 77022, davidderas09@gmail.com, 7133989879, Yes, 100000001, Inundacion
 lead, 9/1/2017 17:14:19, Ana, Diaz, 92530, marbea2832@msn.com, 9513291280, Yes, , Home
 lead, 9/1/2017 18:31:56, tyson, tran, 95212, tvtgeneralconstruction@yahoo.com, 9254132818, Yes, 100000001, CommercialAuto
 lead, 9/1/2017 19:41:05, vyacheslav, lysov, 33181, odessaboy83@gmail.com, 3057809920, Yes, , renters
@@ -1345,9 +1345,9 @@ lead, 9/2/2017 9:39:01, Terrance, Collins, 33712, terrancecollins1988@gmail.com,
 lead, 9/2/2017 10:15:29, Joseph, Padilla, 90247, jo_padi@yahoo.com, 3107551492, Yes, 100000000, CommercialAuto
 lead, 9/2/2017 11:32:10, Louise, Huang, 78731, huangluyi55555@163.com, 6824089360, Yes, , renters
 lead, 9/2/2017 13:03:23, Celikins, Metayer, 33168, alan_genelas@yahoo.com, 7863162559, Yes, 100000000, Home
-lead, 9/2/2017 13:45:43, robyn, brennan, 91604, lacbrennan@live.com, (818) 505-8559, No, , renters
+lead, 9/2/2017 13:45:43, robyn, brennan, 91604, lacbrennan@live.com, (818)505-8559, No, , renters
 lead, 9/2/2017 13:47:39, alejandro, cabrera, 93906, alejandrohcabrera@gmail.com, 8312149182, Yes, , renters
-lead, 9/2/2017 14:41:10, David, Deras, 77022, dsvidderas09@gmail.com, 713 398 98 79, Yes, 100000001, Inundacion
+lead, 9/2/2017 14:41:10, David, Deras, 77022, dsvidderas09@gmail.com, 7133989879, Yes, 100000001, Inundacion
 lead, 9/2/2017 14:59:47, Hector, Vega, 92626, hrvega@uci.edu, 9518077637, Yes, , renters
 lead, 9/2/2017 15:19:14, Astrid, Duverge Carrasco, 33180, astridduvergec@gmail.com, 7866027682, Yes, , renters
 lead, 9/2/2017 16:06:44, Qianqian, Wang, 33181, 331369588@qq.com, 6315070353, Yes, , renters
@@ -1367,7 +1367,7 @@ lead, 9/3/2017 0:24:58, Orlando, Colon, 32808, ocolon45@gmail.com, 3213041079, Y
 lead, 9/3/2017 9:33:20, Giacomo, Badalamenti, 33411, oag124@yahoo.com, 561-791-3186, No, 100000002, Flood
 lead, 9/3/2017 10:26:58, Christle, Tallant, 33050, christletallant@gmail.com, 3059029659, Yes, 100000000, Boat
 lead, 9/3/2017 13:07:41, Jaime, Gonzalez, 92833, gonzjaime75@gmail.com, 3234948915, Yes, 100000000, CommercialAuto
-lead, 9/3/2017 14:37:37, Carolina, Aleman, 77372, aquamarina77@live.com, 713 382 8692, Yes, 100000001, CasaMovil
+lead, 9/3/2017 14:37:37, Carolina, Aleman, 77372, aquamarina77@live.com, 7133828692, Yes, 100000001, CasaMovil
 lead, 9/3/2017 15:04:54, Rosa, mendoza, 75243, torresrosa82@yahoo.com, 9729043227, Yes, , Vida
 lead, 9/3/2017 16:15:12, Hector, Escalona, 33024, hectorvpm@outlook.com, 9546510669, Yes, 100000000, commercial
 lead, 9/3/2017 16:19:28, Leon, Lewin, 90402, leon.lewin@abacus.net, 4242143710, No, , BusinessOwnerPolicy
@@ -1379,7 +1379,7 @@ lead, 9/3/2017 21:10:09, Eduardo, Diaz Paniagua, 77043, diaz8625@gmail.com, 8327
 lead, 9/3/2017 23:00:31, Flavio, Carvalho, 33181, mygarden@me.com, 305-332-5821, Yes, , CommercialGeneralLiability
 lead, 9/4/2017 0:45:05, Elizabeth, Ramirez, 92113, elizarami1love@hotmail.com, 6195544752, Yes, , renters
 lead, 9/4/2017 7:50:09, GARY, STREILY, 34613, gstreily@yahoo.com, 3522384965, Yes, 100000002, Life
-lead, 9/4/2017 7:58:08, Jessie, Carter, 32225, Doony110@Hotmail.com, 904 726 1274, No, , renters
+lead, 9/4/2017 7:58:08, Jessie, Carter, 32225, Doony110@Hotmail.com, 9047261274, No, , renters
 lead, 9/4/2017 8:45:25, Nancy, Santiago, 34221, bb0104@hotmail.com, 9414486111, Yes, 100000002, Home
 lead, 9/4/2017 9:04:45, Valerie, Burks, 33612, valerieburks@ymail.com, 8132790431, Yes, , renters
 lead, 9/4/2017 9:18:30, AMAURY, VALDES, 33135, AMAURY0626@YAHOO.COM, 7868537851, Yes, 100000000, Life
@@ -1477,7 +1477,7 @@ lead, 9/5/2017 11:29:45, Kenyarda, Wigfall, 34638, Kenyardaw272@gmail.com, 81349
 lead, 9/5/2017 11:45:27, ENRIQUE, DELGADO FERNANDEZ, 32821, enriquebdelgado@gmail.com, 3219462322, Yes, , renters
 lead, 9/5/2017 12:17:53, yesira, bassi, 33015, yesirabassi@gmail.com, 7864876626, Yes, , renters
 lead, 9/5/2017 12:22:17, CHATWANDA, YOUNG, 33607, NUKI1218@GMAIL.COM, 813-793-5622, Yes, , renters
-lead, 9/5/2017 12:24:02, Victor, Sainpaulin, 33035, victorsainpaulin@gmail.com, 305 763 7877, Yes, , renters
+lead, 9/5/2017 12:24:02, Victor, Sainpaulin, 33035, victorsainpaulin@gmail.com, 3057637877, Yes, , renters
 lead, 9/5/2017 12:25:37, Jose, Quintana, 33325, jaquintana@gmail.com, 7867974814, Yes, 100000001, MobileHome
 lead, 9/5/2017 12:31:36, Lessle, Garcia, 34135, lygarcia08@yahoo.com, 2396925503, Yes, , renters
 lead, 9/5/2017 12:43:35, Ada, Romero, 33196, arimach_395@hotmail.com, 6265105209, Yes, 100000002, Home
@@ -1566,8 +1566,8 @@ lead, 9/5/2017 23:09:11, Waleska, Alvarado, 33615, wilwallespier71@gmail.com, 81
 lead, 9/5/2017 23:44:34, OSVALDO, PozoMarin, 92345, opoco46@yahoo.com, 7143815297, Yes, , renters
 lead, 9/5/2017 23:50:01, OSVALDO, PozoMarin, 92345, opoco46@yahoo.com, 7143815297, Yes, , renters
 lead, 9/5/2017 23:54:38, Osvaldo, PozoMarin, 92345, opoco46@yahoo.com, 7143815297, Yes, , renters
-lead, 9/6/2017 0:57:02, teresa, Gardner, 95969, tcgardner777@yahoo.com, 209 229 0321, Yes, , Home
-lead, 9/6/2017 0:58:16, teresa, Gardner, 95969, tcgardner777@yahoo.com, 209 229 0221, Yes, , Home
+lead, 9/6/2017 0:57:02, teresa, Gardner, 95969, tcgardner777@yahoo.com, 2092290321, Yes, , Home
+lead, 9/6/2017 0:58:16, teresa, Gardner, 95969, tcgardner777@yahoo.com, 2092290221, Yes, , Home
 lead, 9/6/2017 1:42:28, Osmin, Pacheco, 93003, osminpac@gmail.com, 805-861-9593, Yes, 100000002, AutoComercial
 lead, 9/6/2017 1:49:06, Abraham, Torres, 92337, at060392@gmail.com, 9099195050, Yes, 100000001, CommercialAuto
 lead, 9/6/2017 5:37:34, Pierlus, Durandis, 33157, pdurandis@yahoo.com, 3059679394, Yes, , renters
@@ -1612,7 +1612,7 @@ lead, 9/6/2017 12:31:07, Michelle, Aragon, 33065, aalcarlos504@gmail.com, 786387
 lead, 9/6/2017 12:42:03, Kyle, Letcher, 95650, jroumage123@gmail.com, 5304011426, Yes, , Life
 lead, 9/6/2017 12:48:58, Kyle, Letcher, 95650, jroumage@gmail.com, 5304011426, Yes, , Life
 lead, 9/6/2017 12:50:42, Candice, Miles, 32311, candice_miles@ymail.com, 8502941381, Yes, , renters
-lead, 9/6/2017 12:52:42, Sandra, Hernandez, 77449, reyessandra7015@gmail.com, 909 200-0452, Yes, 100000000, CommercialAuto
+lead, 9/6/2017 12:52:42, Sandra, Hernandez, 77449, reyessandra7015@gmail.com, 909200-0452, Yes, 100000000, CommercialAuto
 lead, 9/6/2017 12:55:47, Kyle, Letcher, 95650, kletcher118@gmail.com, 9166262503, Yes, , Life
 lead, 9/6/2017 13:14:18, pierina, monzant soto, 33178, pieri_soto@hotmail.com, 7867750227, Yes, , renters
 lead, 9/6/2017 13:18:05, Anthony, Olivera, 33033, Anthony.Oliveras@Aol.Com, 6464684869, Yes, 100000001, Home
@@ -1673,7 +1673,7 @@ lead, 9/6/2017 21:25:37, Jennifer, Moussignac, 33603, love2erykah@yahoo.com, 813
 lead, 9/6/2017 21:38:47, Thelma, Delgado, 33441, delgadogarciainc@aol.com, 3052449982, Yes, , renters
 lead, 9/6/2017 21:55:57, THELMA, DELGADO, 33145, delgadogarciainc@aol.com, 3052449982, Yes, , renters
 lead, 9/6/2017 22:18:56, Nekeshia, Bouie, 32825, nikkibouie@gmail.com, 4079126540, Yes, , renters
-lead, 9/6/2017 22:58:08, Maritza, Couch, 33147, mcouch51@hotmail.com, 770 906 3541, Yes, , BusinessOwnerPolicy
+lead, 9/6/2017 22:58:08, Maritza, Couch, 33147, mcouch51@hotmail.com, 7709063541, Yes, , BusinessOwnerPolicy
 lead, 9/6/2017 23:17:11, David, Escolero, 92395, 100shotstang350@gmail.com, 6267662815, Yes, 100000001, Motorcycle
 lead, 9/6/2017 23:41:19, Joshua, Suarez, 34747, CARLAROJAS360@HOTMAIL.COM, 4075360650, Yes, , inquilino
 lead, 9/6/2017 23:49:35, Bruce, Rosier, 90026, thickit1@gmail.com, 6269757291, Yes, , renters
@@ -1711,7 +1711,7 @@ lead, 9/7/2017 16:27:56, Hector, Carrillo, 94403, carrillohector03@gmail.com, 65
 lead, 9/7/2017 16:28:18, Silia, Diaz, 93618, nenagirldiaz@gmail.com, 5593916262, No, , Home
 lead, 9/7/2017 16:57:06, Alfredo, Godoy, 32835, alfredogr94@gmail.com, 7862719606, Yes, , renters
 lead, 9/7/2017 16:57:07, anh, nguyen, 33404, anitastaffing06@gmail.com, 5618770331, Yes, 100000001, commercial
-lead, 9/7/2017 17:03:50, Herman, Whitfield, 33004, hiw256@hotmail.com, 317 748 6304, Yes, , renters
+lead, 9/7/2017 17:03:50, Herman, Whitfield, 33004, hiw256@hotmail.com, 3177486304, Yes, , renters
 lead, 9/7/2017 17:15:17, Brenda, Santiago, 33897, rolon6793@gmail.com, 3864570905, Yes, 100000002, CasaMovil
 lead, 9/7/2017 17:24:13, Jose, Delgado, 32821, eventosyakon@gmail.com, 4078679948, Yes, , inquilino
 lead, 9/7/2017 17:30:43, Brenda, Santiago, 33897, rolon6793@gmail.com, 3864570905, Yes, 100000002, CasaMovil
@@ -1720,7 +1720,7 @@ lead, 9/7/2017 17:55:35, Jose, Ventura, 34748, yaron035@yahoo.com, 4077492999, Y
 lead, 9/7/2017 18:27:28, daguang, sun, 91770, sdg640567@hotmail.com, 6269276846, Yes, 100000000, motorcycle
 lead, 9/7/2017 18:32:54, Demitria, Harris, 77040, Deeharris23@gmail.com, 8323016781, Yes, , renters
 lead, 9/7/2017 19:00:50, Leovel, Alvarez, 33619, yenileo2010@yahoo.com, 8135287216, Yes, 100000001, Bote
-lead, 9/7/2017 20:26:42, Herman, Whitfield, 33004, hiw256@hotmail.com, 317 748 6304, No, , renters
+lead, 9/7/2017 20:26:42, Herman, Whitfield, 33004, hiw256@hotmail.com, 3177486304, No, , renters
 lead, 9/7/2017 20:52:31, Yaneisy, Quintero, 32226, yaneisyquintero@yahoo.com, 9043076185, Yes, , inquilino
 lead, 9/7/2017 20:56:28, Cruz, Rodriguez, 33139, cruzarodz@gmail.com, 9177712707, Yes, , renters
 lead, 9/7/2017 21:02:03, SIGRYTH, TENORIO, 33172, patriteno@gmail.com, 7864026841, Yes, , inquilino
@@ -1751,7 +1751,7 @@ lead, 9/8/2017 14:00:34, Tasha, Henry, 33351, tadhgaye@gmail.com, 9546683923, Ye
 lead, 9/8/2017 14:21:54, Omar, Melchor, 75067, melchoromar612@gmail.com, 9725377878, Yes, 100000002, CasaMovil
 lead, 9/8/2017 14:49:52, Liza, Senquiz, 32832, liza_senquizortiz@yahoo.com, 7873933524, Yes, , inquilino
 lead, 9/8/2017 15:50:55, Lisandra, Pena, 33177, lisandrapena1988@gmail.com, 3055627542, Yes, 100000001, Motorcycle
-lead, 9/8/2017 15:57:08, Philippe, Mouhon, 7506w, mouhonfil123@gmail.com, 214 8618681, Yes, 100000002, CommercialAuto
+lead, 9/8/2017 15:57:08, Philippe, Mouhon, 7506w, mouhonfil123@gmail.com, 2148618681, Yes, 100000002, CommercialAuto
 lead, 9/8/2017 16:18:14, Kurt, Hayden, 30141, tightride98@yahoo.com, 4047323761, Yes, 100000002, Motorcycle
 lead, 9/8/2017 17:10:05, Frederick, Hart, 30135, frdrck.hart@gmail.com, 4047483777, Yes, 100000000, Renters
 lead, 9/8/2017 17:14:46, Erick, Campos, 90001, ecampos1214@gmail.com, 3235003505, Yes, 100000001, CommercialAuto
@@ -1786,8 +1786,8 @@ lead, 9/9/2017 21:40:41, Elizabeth, Jennings, 92037, eelicious@hotmail.com, 7604
 lead, 9/9/2017 23:11:41, Emmanuel, Guerra, 91010, emanelectric1081@gmail.com, 9162751071, Yes, 100000002, Motorcycle
 lead, 9/9/2017 23:12:06, Emmanuel, Guerra, 91010, emanelectric1081@gmail.com, 9162751071, Yes, 100000002, Motorcycle
 lead, 9/9/2017 23:12:20, Emmanuel, Guerra, 91010, emanelectric1081@gmail.com, 9162751071, Yes, 100000001, Motorcycle
-lead, 9/10/2017 3:15:04, Arthur, Stanley, 17331, Astanleyjr@gmail.com, 410 800 5772, Yes, 100000000, CommercialAuto
-lead, 9/10/2017 9:45:12, Daniel, Segura, 92627, Danielsegura25@yahoo.com, 949 200 0140, Yes, 100000001, CommercialAuto
+lead, 9/10/2017 3:15:04, Arthur, Stanley, 17331, Astanleyjr@gmail.com, 4108005772, Yes, 100000000, CommercialAuto
+lead, 9/10/2017 9:45:12, Daniel, Segura, 92627, Danielsegura25@yahoo.com, 9492000140, Yes, 100000001, CommercialAuto
 lead, 9/10/2017 11:03:37, lidia, rivera, 77581, belisapcuellar1@gmail.com, 8322452740, Yes, , CommercialGeneralLiability
 lead, 9/10/2017 11:57:33, RT, METALS CORP, 91017, Rtmetalscorp@outlook.com, 6262010745, Yes, 100000000, CommercialAuto
 lead, 9/10/2017 11:58:40, DAVID, ROBERTS, 91016, Rtmetalscorp@outlook.com, 6262038207, Yes, 100000000, CommercialAuto
@@ -1826,7 +1826,7 @@ lead, 9/11/2017 14:14:44, Test, Test, 33333, test@ipacc.com, 4444444444, Yes, 10
 lead, 9/11/2017 14:16:15, Jose, Martinez, 33196, c.bajocero@gmail.com, 7868487685, Yes, 100000001, Casa
 lead, 9/11/2017 15:19:58, Arica, Harris, 75067, arica1982@gmail.com, 469-323-0562, Yes, 100000002, CommercialAuto
 lead, 9/11/2017 15:28:42, Natalie, Cabrer, 33129, nataliecabr008@gmail.com, 3058781364, Yes, , renters
-lead, 9/11/2017 15:30:49, Adan, Amesquita, 91761, solitario357@yahoo.com, 909 248 8151, Yes, , Vida
+lead, 9/11/2017 15:30:49, Adan, Amesquita, 91761, solitario357@yahoo.com, 9092488151, Yes, , Vida
 lead, 9/11/2017 15:36:46, Kenneth, Burke, 95682, burkekenneth87@gmail.com, 9166663684, Yes, 100000002, CommercialAuto
 lead, 9/11/2017 15:37:42, Noemi, Manzo, 90220, tripled_doubler@yahoo.com, 310-678-2463, Yes, 100000000, CommercialAuto
 lead, 9/11/2017 16:06:52, Ladema, Smith, 33032, sharee4368@gmail.com, 305-338-4859, Yes, 100000001, Home
@@ -1846,7 +1846,7 @@ lead, 9/11/2017 20:17:03, Vincent, Hernandez, 90032, hvince8@yahoo.com, 32333729
 lead, 9/11/2017 20:21:50, Vincent, Hernandez, 90032, hvince8@yahoo.com, 3233372901, Yes, , Home
 lead, 9/11/2017 20:26:07, michael, Knight, 90715, reisha2cute@gmail.com, 5624833775, Yes, , Home
 lead, 9/11/2017 20:28:47, Vincent, Hernandez, 91706, hvince8@yahoo.com, 3233372901, Yes, , Home
-lead, 9/11/2017 20:41:33, Arturo, Bermudez, 90059, arturo.bera@hotmail.com, 323 9010419, Yes, 100000001, AutoComercial
+lead, 9/11/2017 20:41:33, Arturo, Bermudez, 90059, arturo.bera@hotmail.com, 3239010419, Yes, 100000001, AutoComercial
 lead, 9/11/2017 21:06:56, Michael, knight, 90715, reisha2cute@gmail.com, 5624833775, Yes, , Home
 lead, 9/12/2017 2:43:45, Amit, Pal, 90621, amitpal.hbti@gmail.com, 9492322324, Yes, , renters
 lead, 9/12/2017 6:03:26, Laura, Irias, 33020, laurairias23@hotmail.com, 9544044288, Yes, 100000002, Home
@@ -1912,7 +1912,7 @@ lead, 9/13/2017 15:14:08, vivian, cabrera, 33705, vivienne.cabrera@gmail.com, 33
 lead, 9/13/2017 15:38:02, Leroy, Holmes, 95380, latrielleh@gmail.com, 2095417620, Yes, , Home
 lead, 9/13/2017 15:42:10, Nelson, Almonte, 34113, nelsonalmonte969@gmail.com, 2396964054, Yes, 100000002, Life
 lead, 9/13/2017 16:45:36, Maurice, Strawder, 15104, info@tntenterpriseofpgh.com, 412-677-8286, Yes, , CommercialGeneralLiability
-lead, 9/13/2017 17:27:18, Corey, Robinson, 92553, coreykendrick@icloud.com, 951 3230532, Yes, 100000002, Motorcycle
+lead, 9/13/2017 17:27:18, Corey, Robinson, 92553, coreykendrick@icloud.com, 9513230532, Yes, 100000002, Motorcycle
 lead, 9/13/2017 17:28:01, JANETTE, FLETES, 92571, ANGELESMIOFICINA@GMAIL.COM, 9512789028, No, 100000001, CommercialAuto
 lead, 9/13/2017 18:35:55, Anual, Kelly, 77067, bigkells47@gmail.com, 8328990069, Yes, , CommercialGeneralLiability
 lead, 9/13/2017 18:37:05, Cesar, Gonzalez, 78839, cgonzalez5566@gmail.com, (320)296-5667, Yes, 100000001, CommercialAuto
@@ -1955,7 +1955,7 @@ lead, 9/14/2017 16:10:03, Ana lilia, flores, 95991, flores.ana159@gmail.com, 530
 lead, 9/14/2017 16:28:52, Obadiah, Bin Ashiyah, 33634, bivco1@gmail.com, 8135629309, Yes, , CommercialGeneralLiability
 lead, 9/14/2017 16:52:19, Gregory, MOntgomery, 77562, Montgomerygreg32@Yahoo.com, 713-874-7151, Yes, 100000002, CommercialAuto
 lead, 9/14/2017 16:53:17, Ulysses, McKneely, 77048, 1stladymac713@gmail.com, 8329391467, Yes, 100000000, CommercialAuto
-lead, 9/14/2017 18:17:06, Ryan, Smith, 93653, smiffwfo822@yahoo.com, (559) 689-3126, No, , Home
+lead, 9/14/2017 18:17:06, Ryan, Smith, 93653, smiffwfo822@yahoo.com, (559)689-3126, No, , Home
 lead, 9/14/2017 18:40:03, Cristina, Espinoza, 92376, cristinaespinoza383@yahoo.com, 9092056805, Yes, 100000000, AutoComercial
 lead, 9/14/2017 19:23:13, Jacqueline, Fernandez, 33027, jackieyo9@live.com, 7542446789, Yes, 100000001, Life
 lead, 9/14/2017 19:24:33, FERNANDO, DELGADO, 32824, fernandodelgado67@gmail.com, 7862236323, Yes, , inquilino
@@ -2009,9 +2009,9 @@ lead, 9/16/2017 1:30:48, Hoa, Nguyen, 92211, thanh4truc@yahoo.com, 7142005794, Y
 lead, 9/16/2017 2:53:31, Rob, Nunez, 33020, summergal@gmail.com, 7862874312, Yes, , renters
 lead, 9/16/2017 3:41:38, Tim, Drake, 91710, diaz_araceli@ymail.com, 909-867-5309, Yes, , Home
 lead, 9/16/2017 7:00:19, LISA, BRYANT, 78253, khokoswirl@gmail.com, 2103806735, Yes, , renters
-lead, 9/16/2017 9:31:13, Ana, Gutierrez, 95111, papichulo71405@yahoo.com, 408 449 2381, Yes, , Casa
-lead, 9/16/2017 9:32:48, Ana, Gutierrez, 95111, papichulo71405@yahoo.com, 408 449 2381, Yes, , Casa
-lead, 9/16/2017 9:32:52, Ana, Gutierrez, 95111, papichulo71405@yahoo.com, 408 449 2381, Yes, , Casa
+lead, 9/16/2017 9:31:13, Ana, Gutierrez, 95111, papichulo71405@yahoo.com, 4084492381, Yes, , Casa
+lead, 9/16/2017 9:32:48, Ana, Gutierrez, 95111, papichulo71405@yahoo.com, 4084492381, Yes, , Casa
+lead, 9/16/2017 9:32:52, Ana, Gutierrez, 95111, papichulo71405@yahoo.com, 4084492381, Yes, , Casa
 lead, 9/16/2017 10:19:55, Davey, Palacios, 90011, dpalacios@asaplg.com, 3107351942, Yes, , CommercialGeneralLiability
 lead, 9/16/2017 12:20:41, Ashley, Crain, 78064, jguer04@aol.com, 210-844-4758, Yes, 100000002, CommercialAuto
 lead, 9/16/2017 12:31:40, virginia, lloyd, 76116, vvvlloyd1985@gmail.com, 6825826725, Yes, , Home
@@ -2039,7 +2039,7 @@ lead, 9/17/2017 12:27:59, Rafael, Estevez, 32113, recitra@gmail.com, 3522831282,
 lead, 9/17/2017 12:29:20, CEMIL, KAVRAYIS, 33024, kava@gmail.com, 7548987895, Yes, 100000001, Home
 lead, 9/17/2017 12:34:39, Alexandra, Mekis, 90806, alexmekis@gmail.com, 7146240546, Yes, , Home
 lead, 9/17/2017 12:50:52, Aaron, Alarcon, 93635, kwade1015@gmail.com, 2097041850, Yes, , renters
-lead, 9/17/2017 13:32:50, Ana, Barrera, 92553, barrera.amn@gmail.com, (951) 385-9719, Yes, , Home
+lead, 9/17/2017 13:32:50, Ana, Barrera, 92553, barrera.amn@gmail.com, (951)385-9719, Yes, , Home
 lead, 9/17/2017 16:24:57, Iliuva, Calas, 33033, iliuvacalas@yahoo.com, 7867381645, Yes, 100000002, Casa
 lead, 9/17/2017 17:11:47, Joseph, Evans, 77331, hotshottrucking@evanstruckingllc.com, 8328464597, Yes, 100000002, CommercialAuto
 lead, 9/17/2017 18:04:52, Theresa, Webb, 33605, twebb2511@gmail.com, 8137855397, Yes, , renters
@@ -2104,7 +2104,7 @@ lead, 9/18/2017 23:19:16, Sky, Lam, 91709, sky.lam.tes@gmail.com, 5623417114, Ye
 lead, 9/19/2017 1:31:20, Jerell, Duffin, 85283, jay_duffin@yahoo.com, 9713171498, Yes, 100000002, Motorcycle
 lead, 9/19/2017 2:04:24, Dustin, Cole, 34484, Dustin.cole03@gmail.com, 3524464621, Yes, , Health
 lead, 9/19/2017 6:29:17, Amanda, Ayala, 34234, loveme0588@gmail.com, 9415493249, Yes, , renters
-lead, 9/19/2017 7:43:58, Damion, Schofield, 30238, deescho84@gmail.com, (954) 218-1199, Yes, , BusinessOwnerPolicy
+lead, 9/19/2017 7:43:58, Damion, Schofield, 30238, deescho84@gmail.com, (954)218-1199, Yes, , BusinessOwnerPolicy
 lead, 9/19/2017 9:10:09, Cody, Kile, 92583, codykile13@yahoo.com, 9512192649, Yes, 100000001, CommercialAuto
 lead, 9/19/2017 9:39:40, Gabriela, Alvarado, 33579, desiignergranite@gmail.com, 8134784930, Yes, 100000000, commercial
 lead, 9/19/2017 10:41:56, Fabian, Lora, 92407, fabianlora_rrtnps@att.net, 9092235340, Yes, , Home
@@ -2170,7 +2170,7 @@ lead, 9/20/2017 15:01:23, Gabriella, Carrillo, 77014, gabriellacarrillo32014@gma
 lead, 9/20/2017 15:03:40, Carlos, Munoz, 77087, cmunoz811352@gmail.com, 3463142711, Yes, , inquilino
 lead, 9/20/2017 15:15:45, Gabriella, Carrillo, 77014, gabriellacarrillo32014@gmail.com, 7134785082, Yes, , CommercialGeneralLiability
 lead, 9/20/2017 15:15:52, Gabriella, Carrillo, 77014, gabriellacarrillo32014@gmail.com, 7134785082, Yes, , CommercialGeneralLiability
-lead, 9/20/2017 15:26:46, bhupinder, dhaliwal, 94536, bhup_d@yahoo.com, 310 920 7144, Yes, , Health
+lead, 9/20/2017 15:26:46, bhupinder, dhaliwal, 94536, bhup_d@yahoo.com, 3109207144, Yes, , Health
 lead, 9/20/2017 15:45:22, melissa, grooms, 33830, mgreddevil8@gmail.com, 8636512764, Yes, 100000002, Home
 lead, 9/20/2017 16:49:16, Margarita, cerezo, 90011, maguis_1706@hotmail.com, 2133351401, Yes, 100000001, AutoComercial
 lead, 9/20/2017 17:23:19, Douglas, Card, 90043, jennieva1mom@gmail.com, 3238913449, Yes, 100000000, Motorcycle
@@ -2266,7 +2266,7 @@ lead, 9/22/2017 15:57:12, Arielle, Manuel, 92394, ariebaby@hotmail.com, 95154449
 lead, 9/22/2017 16:03:48, Jesus, Perez, 92545, jesuscortes80@gmail.com, 5624463995, Yes, 100000000, CommercialAuto
 lead, 9/22/2017 16:09:23, Mark, Fedorenko, 94401, fedmmark@gmail.com, 650-787-2419, Yes, 100000000, Motorcycle
 lead, 9/22/2017 16:11:48, Ismail, Ouargui, 32811, isma.ouarg@gmail.com, 4074968873, Yes, , renters
-lead, 9/22/2017 16:27:46, Adriana, Ramirez, 91710, ramirez.adriana0914@yahoo.com, 909 292 5378, Yes, , Home
+lead, 9/22/2017 16:27:46, Adriana, Ramirez, 91710, ramirez.adriana0914@yahoo.com, 9092925378, Yes, , Home
 lead, 9/22/2017 16:30:42, Frederic, Lebow, 92256, frednhfnow@gmail.com, 8587527254, Yes, 100000001, CommercialAuto
 lead, 9/22/2017 16:34:14, Diego, Balaciano, 33331, DBALACIANO@GMAIL.COM, 9549952716, Yes, 100000000, Home
 lead, 9/22/2017 18:11:32, Emmanuel, Guerra, 91010, emanelectric1081@gmail.com, 9162751071, Yes, 100000001, Motorcycle
@@ -2290,13 +2290,15 @@ lead, 9/23/2017 17:46:48, Elnora, Barrancas, 90706, ebarrancas@gmail.com, 562521
 lead, 9/23/2017 20:30:27, Elnora, Barrancas, 90706, ebarrancas@gmail.com, 5625216872, Yes, , Home
 lead, 9/23/2017 20:41:18, Rafa, Zamora, 90003, iamrafis@hotmail.com, 2132215063, Yes, , Home
 lead, 9/23/2017 23:24:40, SASHI, DASIKA, 77056, SASHI.DASIKA@GMAIL.COM, 8327714777, Yes, 100000000, CommercialAuto
-lead, 9/24/2017 1:47:24, ariego, sandoval, 92677, ariegosandoval@yahoo.com, 949 2053095, Yes, , Home
-lead, 9/24/2017 1:51:29, ariego, sandoval, 92677, ariegosandoval@yahoo.com, 949 2053095, Yes, , renters
+lead, 9/24/2017 1:47:24, ariego, sandoval, 92677, ariegosandoval@yahoo.com, 9492053095, Yes, , Home
+lead, 9/24/2017 1:51:29, ariego, sandoval, 92677, ariegosandoval@yahoo.com, 9492053095, Yes, , renters
 lead, 9/24/2017 14:24:50, Fabian, Cardiel, 92585, Cardielf@gmail.com, 9513703649, Yes, , Home
 lead, 9/24/2017 16:22:18, Sonia, Alvarado, 76227, sarely1@gmail.com, 2145577834, Yes, , Vida
 lead, 9/24/2017 19:04:08, Recep, Gultekin, 77057, recepgultekin@gmail.com, 8323801983, Yes, , renters
 lead, 9/24/2017 19:43:21, Fabian, Cardiel, 92585, Cardielf@gmail.com, 9513703649, Yes, , Home
 lead, 9/24/2017 20:58:27, Gabrielle, Poindexter, 33169, gabbilupe2012@gmail.com, 7864830745, Yes, 100000001, Life
 lead, 9/24/2017 23:53:15, Joshua, Benitez, 92240, joshuabenitez55@gmail.com, 7605676949, Yes, 100000002, Motorcycle
-lead, 9/25/2017 0:24:20, bonnie, smith, 30041, jesuschristlives@gmail.com, 470 253 8236, No, 100000000, Home
-lead, 9/25/2017 0:25:43, bonnie, smith, 30041, jesuschristlive
+lead, 9/25/2017 0:24:20, bonnie, smith, 30041, jesuschristlives@gmail.com, 4702538236, No, 100000000, Home
+lead, 9/25/2017 0:25:43, bonnie, smith, 30041, jesuschristlives@gmail.com, 4702538236, No, 100000000, Home
+lead, 9/25/2017 3:16:30, stephen, clouser, 93901, stephen.ploy@gmail.com, 8314615418, Yes, , renters
+lead, 9/25/2017 4:07:43,
