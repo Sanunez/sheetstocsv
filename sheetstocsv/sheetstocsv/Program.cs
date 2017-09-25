@@ -11,6 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Collections.Specialized;
+using System.Text.RegularExpressions;
 
 using Data = Google.Apis.Sheets.v4.Data;
 
@@ -20,7 +21,7 @@ namespace SheetsQuickstart
     {
         // If modifying these scopes, delete your previously saved credentials
         // at ~/.credentials/sheets.googleapis.com-dotnet-quickstart.json
-        static string[] Scopes = { SheetsService.Scope.Spreadsheets };
+        static string[] Scopes = { SheetsService.Scope.Drive};
         static string ApplicationName = "Google Sheet to CSV";
 
         static NameValueCollection callTime = new NameValueCollection()
@@ -33,8 +34,7 @@ namespace SheetsQuickstart
         static void Main(string[] args)
         {
             UserCredential credential;
-            using (var stream =
-                new FileStream("client_secret.json", FileMode.Open, FileAccess.Read))
+            using (var stream = new FileStream("client_secret.json", FileMode.Open, FileAccess.Read))
             {
                 string credPath = System.Environment.GetFolderPath(
                     System.Environment.SpecialFolder.Personal);
@@ -63,37 +63,122 @@ namespace SheetsQuickstart
 
             Data.ValueRange response = request.Execute();
             IList<IList<Object>> values = response.Values;
-            StreamWriter file = new StreamWriter("Lead_Sheet.csv");
-            string[] headers =new string[] {"+new_createdon", "firstname", "lastname", "address1_postalcode", "emailaddress1", "telephone2", "new_isprimaryphonecellphone", "*new_besttimetocall", "subject" };
-            file.Write("Entity, +new_createdon, firstname, lastname, address1_postalcode, emailaddress1, telephone2, new_isprimaryphonecellphone, *new_besttimetocall, subject\n");
+            Boolean fileExist;
+
+            //Check for File
+            if (File.Exists("Lead_Sheet.csv"))
+            {
+                fileExist = true;
+            }
+            else
+            {
+                fileExist = false;
+            }
+
+            //Setup File IO
+            StreamWriter file = new StreamWriter("Lead_Sheet.csv", true);
+            StreamWriter injectionfile = new StreamWriter("inject.csv");
+
+            //Set up Headers and check if file is appended or new
+            string[] headers =new string[] 
+            {
+                "+new_createdon",
+                "firstname",
+                "lastname",
+                "address1_postalcode",
+                "emailaddress1",
+                "telephone2",
+                "new_isprimaryphonecellphone",
+                "*new_besttimetocall",
+                "subject"
+            };
+            if (!fileExist)
+            {
+                file.Write("Entity, +new_createdon, firstname, lastname, address1_postalcode, emailaddress1, telephone2, new_isprimaryphonecellphone, *new_besttimetocall, subject\n");
+            }
+
+            injectionfile.Write("Entity, +new_createdon, firstname, lastname, address1_postalcode, emailaddress1, telephone2, new_isprimaryphonecellphone, *new_besttimetocall, subject\n");
+            
+            //Handle Data
             if (values != null && values.Count > 0)
             {
                 foreach (var row in values)
                 {
                     file.Write("lead, ");
+                    injectionfile.Write("lead, ");
                     for(int i = 0; i < row.Count; i ++)
                     {
                         if(i == row.Count-1)
                         {
-                            file.Write(row[i] + "\n");
+                            file.Write(row[i]);
+                            injectionfile.Write(row[i]);
+                        }
+                        else if (headers[i] == "address1_postalcode")
+                        {
+                            string r = row[i].ToString();
+                            if (r.Length > 5)
+                            {
+                                file.Write(r.Substring(0, 5)+", ");
+                                injectionfile.Write(r.Substring(0, 5) + ", ");
+                            }
+                            else
+                            {
+                                file.Write(row[i] + ", ");
+                                injectionfile.Write(row[i] + ", ");
+                            }
                         }
                         else if (headers[i] == "telephone2")
                         {
-                            file.Write(row[i].ToString().Replace(" ", "") + ", ");
+                            string val = row[i].ToString();
+                            val = val.Replace("-", string.Empty);
+                            val = val.Replace(" ", string.Empty);
+                            val = val.Replace("(", string.Empty);
+                            val = val.Replace(")", string.Empty);
+                            val = val.Replace(".", string.Empty);
+                            if (val.Length > 10){val = val.Substring(0, 10);}
+                            file.Write(val + ", ");
+                            injectionfile.Write(val + ", ");
+
+                        }
+                        else if (headers[i] == "new_isprimaryphonecellphone")
+                        {
+                            if (row[i].ToString() == "Yes")
+                            {
+                                file.Write("TRUE" + ", ");
+                                injectionfile.Write("TRUE" + ", ");
+                            }
+                            else
+                            {
+                                file.Write("FALSE" + ", ");
+                                injectionfile.Write("FALSE" + ", ");
+                            }
+                            
                         }
                         else if(headers[i] == "*new_besttimetocall")
                         {
                             file.Write(callTime[row[i].ToString()] + ", ");
+                            injectionfile.Write(callTime[row[i].ToString()] + ", ");
                         }
                         else
                         {
                             file.Write(row[i] + ", ");
+                            injectionfile.Write(row[i] + ", ");
                         }
                         
                     }
+                    file.Write("\n");
+                    injectionfile.Write("\n");
                 }
             }
-            //Console.Read();
+            string ClearRange = "A2:Z";
+            Data.ClearValuesRequest requestBody = new Data.ClearValuesRequest();
+            SpreadsheetsResource.ValuesResource.ClearRequest clearRequest = service.Spreadsheets.Values.Clear(requestBody, spreadsheetId, ClearRange);
+            Data.ClearValuesResponse clearResponse = clearRequest.Execute();
+
+            file.Close();
+            injectionfile.Close();
+
+
 
 
         }

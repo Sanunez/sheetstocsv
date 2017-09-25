@@ -1,0 +1,9 @@
+Entity, +new_createdon, firstname, lastname, address1_postalcode, emailaddress1, telephone2, new_isprimaryphonecellphone, *new_besttimetocall, subject
+lead, 7/25/2017 14:47:12, Jara, Damessa, 75061, jlove3390@gmail.com, 215E+09, TRUE, , renters
+lead, 7/25/2017 14:59:29, adolfo, guerrero, 92336, agtile@live.com, 910E+09, FALSE, , Life
+lead, 7/25/2017 15:11:18, Tina, Gorbett, 85335, tinazsmokey@yahoo.com, 481E+09, TRUE, , Motorcycle
+lead, 7/25/2017 15:20:57, Delia, Vega, 95670, rachelvega65@gmail.com, 916E+09, TRUE, 100000000, renters
+lead, 7/25/2017 15:58:42, adam, samia, 78705, AdamSamia3@yahoo.com, 833E+09, TRUE, , renters
+lead, 7/25/2017 16:20:53, Louis, Torres, 92408, brandyscabinets@gmail.com, 910E+09, TRUE, , SeguroParaDueNoDeNegocio
+lead, 7/25/2017 16:38:44, brenda, velez, 92591, velez573@gmail.com, 761E+09, TRUE, , renters
+lead, 7/25/2017 16:41:49, Olga, Chumakova, 85716, olga_chumakova@yahoo.com, 521E+09, TRUE, , renters
