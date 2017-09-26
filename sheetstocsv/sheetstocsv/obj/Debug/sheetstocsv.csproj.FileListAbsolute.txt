@@ -23,3 +23,8 @@ C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\s
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\sheetstocsv.csproj.CoreCompileInputs.cache
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\sheetstocsv.exe
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\sheetstocsv.pdb
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\bin\Debug\sheetstocsv.exe.manifest
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\bin\Debug\sheetstocsv.application
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\sheetstocsv.TrustInfo.xml
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\sheetstocsv.exe.manifest
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\sheetstocsv.application

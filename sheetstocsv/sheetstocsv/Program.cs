@@ -63,7 +63,7 @@ namespace SheetsQuickstart
                 ApplicationName = ApplicationName,
             });
             string path;
-            Properties.Settings.Default.firstrun = true;
+
             //Ask for output folder when Program is run only on first run
             if (Properties.Settings.Default.firstrun == true)
             {

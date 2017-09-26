@@ -37,7 +37,6 @@ namespace sheetstocsv.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool firstrun {
             get {
                 return ((bool)(this["firstrun"]));
