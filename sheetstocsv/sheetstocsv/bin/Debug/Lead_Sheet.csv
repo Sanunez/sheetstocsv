@@ -2347,3 +2347,4 @@ lead, 7/25/2017 15:58:42, adam, samia, 78705, AdamSamia3@yahoo.com, 833E+09, TRU
 lead, 7/25/2017 16:20:53, Louis, Torres, 92408, brandyscabinets@gmail.com, 910E+09, TRUE, , SeguroParaDueNoDeNegocio
 lead, 7/25/2017 16:38:44, brenda, velez, 92591, velez573@gmail.com, 761E+09, TRUE, , renters
 lead, 7/25/2017 16:41:49, Olga, Chumakova, 85716, olga_chumakova@yahoo.com, 521E+09, TRUE, , renters
+Entity, +new_createdon, firstname, lastname, address1_postalcode, emailaddress1, telephone2, new_isprimaryphonecellphone, *new_besttimetocall, subject

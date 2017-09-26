@@ -12,11 +12,17 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Collections.Specialized;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
+using System.Configuration;
+using SheetsQuickstart;
+using sheetstocsv;
 
+using Properties = sheetstocsv.Properties;
 using Data = Google.Apis.Sheets.v4.Data;
 
 namespace SheetsQuickstart
 {
+    
     class Program
     {
         // If modifying these scopes, delete your previously saved credentials
@@ -31,8 +37,10 @@ namespace SheetsQuickstart
             { "Evening", "100000002" }
         };
 
+        [STAThread]
         static void Main(string[] args)
         {
+
             UserCredential credential;
             using (var stream = new FileStream("client_secret.json", FileMode.Open, FileAccess.Read))
             {
@@ -54,6 +62,23 @@ namespace SheetsQuickstart
                 HttpClientInitializer = credential,
                 ApplicationName = ApplicationName,
             });
+            string path;
+            Properties.Settings.Default.firstrun = true;
+            //Ask for output folder when Program is run only on first run
+            if (Properties.Settings.Default.firstrun == true)
+            {
+                FolderBrowserDialog fbd = new FolderBrowserDialog();
+                fbd.Description = "Please select the folder where the Injection-Ready Files will be placed.";
+                if(fbd.ShowDialog() == DialogResult.OK)
+                {
+                    path = fbd.SelectedPath;
+                    Properties.Settings.Default.outputdir = path;
+                }
+                Properties.Settings.Default.firstrun = false;
+                Properties.Settings.Default.Save();
+            }
+            path = Properties.Settings.Default.outputdir;
+            path = path + "\\";
 
             // Define request parameters.
             String spreadsheetId = "1_VKKZ5J0DkBrx-Xi--4OEhkgpsdUSQIX5f2yV2U_4yU";
@@ -65,8 +90,10 @@ namespace SheetsQuickstart
             IList<IList<Object>> values = response.Values;
             Boolean fileExist;
 
+           
+
             //Check for File
-            if (File.Exists("Lead_Sheet.csv"))
+            if (File.Exists(path + "Lead_Sheet.csv"))
             {
                 fileExist = true;
             }
@@ -76,8 +103,8 @@ namespace SheetsQuickstart
             }
 
             //Setup File IO
-            StreamWriter file = new StreamWriter("Lead_Sheet.csv", true);
-            StreamWriter injectionfile = new StreamWriter("inject.csv");
+            StreamWriter file = new StreamWriter(path+"Lead_Sheet.csv", true);
+            StreamWriter injectionfile = new StreamWriter(path+"inject.csv");
 
             //Set up Headers and check if file is appended or new
             string[] headers =new string[] 
