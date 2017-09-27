@@ -8,3 +8,17 @@ C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\Se
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.csproj.CoreCompileInputs.cache
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.exe
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.pdb
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\client_secret.json
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\sheetstocsv.exe
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Google.Apis.Auth.dll
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Google.Apis.Sheets.v4.dll
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Google.Apis.dll
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Google.Apis.Core.dll
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\sheetstocsv.pdb
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\sheetstocsv.exe.config
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Google.Apis.Auth.xml
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Google.Apis.Sheets.v4.xml
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Google.Apis.xml
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Google.Apis.Core.xml
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Newtonsoft.Json.xml

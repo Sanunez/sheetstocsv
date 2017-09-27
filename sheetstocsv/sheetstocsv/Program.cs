@@ -46,15 +46,15 @@ namespace SheetsQuickstart
             {
                 string credPath = System.Environment.GetFolderPath(
                     System.Environment.SpecialFolder.Personal);
-                credPath = Path.Combine(credPath, ".credentials/sheets.googleapis.com-dotnet-Sheetstocsv.json");
+                    credPath = Path.Combine(credPath, ".credentials/sheets.googleapis.com-dotnet-Sheetstocsv.json");
 
-                credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
+                    credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
                     GoogleClientSecrets.Load(stream).Secrets,
                     Scopes,
                     "user",
                     CancellationToken.None,
                     new FileDataStore(credPath, true)).Result;
-                Console.WriteLine("Credential file saved to: " + credPath);
+                //Console.WriteLine("Credential file saved to: " + credPath);
             }
             // Create Google Sheets API service.
             var service = new SheetsService(new BaseClientService.Initializer()
@@ -64,22 +64,17 @@ namespace SheetsQuickstart
             });
             string path;
 
-            //Ask for output folder when Program is run only on first run
-            if (Properties.Settings.Default.firstrun == true)
+            //Check for if configured
+            if (Properties.Settings.Default.configured == false)
             {
-                FolderBrowserDialog fbd = new FolderBrowserDialog();
-                fbd.Description = "Please select the folder where the Injection-Ready Files will be placed.";
-                if(fbd.ShowDialog() == DialogResult.OK)
-                {
-                    path = fbd.SelectedPath;
-                    Properties.Settings.Default.outputdir = path;
-                }
-                Properties.Settings.Default.firstrun = false;
-                Properties.Settings.Default.Save();
+                Console.WriteLine("Program has not been configured yet! Please Run SettingsUI first to start this program.");
+                Console.ReadLine();
+                Environment.Exit(0);
             }
+
+
             path = Properties.Settings.Default.outputdir;
             path = path + "\\";
-            Console.WriteLine(path);
 
             // Define request parameters.
             String spreadsheetId = "1_VKKZ5J0DkBrx-Xi--4OEhkgpsdUSQIX5f2yV2U_4yU";

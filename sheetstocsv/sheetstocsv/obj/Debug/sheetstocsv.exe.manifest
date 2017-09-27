@@ -134,7 +134,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>R4LrzmEBNWId7tTXYeFqXJHzXR9i1VLfrihfx6ca4zE=</dsig:DigestValue>
+        <dsig:DigestValue>MLCVTpFwThXyQV3tHykpREMOWw+by3zM1bO8sqewGD8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -195,13 +195,13 @@
       <dsig:DigestValue>cWyPqGaJ0rneWtDsuSkLwjozWJ9dfP98rYpNeuvmFnk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="sheetstocsv.exe.config" size="1241">
+  <file name="sheetstocsv.exe.config" size="1719">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>qD/wf0orSFh6sVkeMZcQgm8T7lfIuIFhpNjfBezgldo=</dsig:DigestValue>
+      <dsig:DigestValue>HBKsheZnylS042yJqr6lajRt5pXN/6JCHDB2lVUp0lQ=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

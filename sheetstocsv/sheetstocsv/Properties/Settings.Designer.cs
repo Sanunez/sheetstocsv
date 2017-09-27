@@ -37,12 +37,61 @@ namespace sheetstocsv.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public bool firstrun {
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool configured {
             get {
-                return ((bool)(this["firstrun"]));
+                return ((bool)(this["configured"]));
             }
             set {
-                this["firstrun"] = value;
+                this["configured"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string spreadsheetID {
+            get {
+                return ((string)(this["spreadsheetID"]));
+            }
+            set {
+                this["spreadsheetID"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Entity {
+            get {
+                return ((string)(this["Entity"]));
+            }
+            set {
+                this["Entity"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int headernum {
+            get {
+                return ((int)(this["headernum"]));
+            }
+            set {
+                this["headernum"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string headers {
+            get {
+                return ((string)(this["headers"]));
+            }
+            set {
+                this["headers"] = value;
             }
         }
     }

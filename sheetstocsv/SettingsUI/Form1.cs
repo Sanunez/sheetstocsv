@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using sheetstocsv;
 
 namespace SettingsUI
 {
@@ -43,6 +45,24 @@ namespace SettingsUI
             {
                 OutputDirectory_TextBox.Text = folderBrowserDialog1.SelectedPath;
             }
+        }
+
+        private void Save_Button_Click(object sender, EventArgs e)
+        {
+            sheetstocsv.Properties.Settings.Default.outputdir = OutputDirectory_TextBox.Text;
+            sheetstocsv.Properties.Settings.Default.spreadsheetID = SpreadsheetID_Textbox.Text;
+            sheetstocsv.Properties.Settings.Default.Entity = Entity_Texbox.Text;
+            sheetstocsv.Properties.Settings.Default.headernum = (int)Columns_NumericUpDown.Value;
+            string headers = "";
+            for (int i = 0; i < (int)Columns_NumericUpDown.Value; i++)
+            {
+                headers = headers + Columns_DataGridView.Rows[0].Cells[i].Value.ToString() + ",";
+            }
+            sheetstocsv.Properties.Settings.Default.headers = headers;
+            sheetstocsv.Properties.Settings.Default.configured = true;
+            sheetstocsv.Properties.Settings.Default.Save();
+
+            MessageBox.Show("Saving Complete!", "Settings", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }

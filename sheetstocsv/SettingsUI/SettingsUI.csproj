@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sheetstocsv\sheetstocsv.csproj">
+      <Project>{501162d0-4330-44c0-a989-55972601e415}</Project>
+      <Name>sheetstocsv</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
