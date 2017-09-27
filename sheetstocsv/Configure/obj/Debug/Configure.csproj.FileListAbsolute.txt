@@ -1,0 +1,5 @@
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\Configure\obj\Debug\Configure.csprojResolveAssemblyReference.cache
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\Configure\obj\Debug\App.g.cs
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\Configure\obj\Debug\Configure_MarkupCompile.cache
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\Configure\obj\Debug\MainWindow.g.cs
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\Configure\obj\Debug\Configure_MarkupCompile.lref

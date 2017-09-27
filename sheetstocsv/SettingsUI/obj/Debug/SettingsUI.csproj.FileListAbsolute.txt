@@ -1,0 +1,10 @@
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.exe.config
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.exe
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.pdb
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.csprojResolveAssemblyReference.cache
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.Form1.resources
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.Properties.Resources.resources
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.csproj.GenerateResource.Cache
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.csproj.CoreCompileInputs.cache
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.exe
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.pdb

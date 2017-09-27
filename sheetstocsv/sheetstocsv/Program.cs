@@ -79,6 +79,7 @@ namespace SheetsQuickstart
             }
             path = Properties.Settings.Default.outputdir;
             path = path + "\\";
+            Console.WriteLine(path);
 
             // Define request parameters.
             String spreadsheetId = "1_VKKZ5J0DkBrx-Xi--4OEhkgpsdUSQIX5f2yV2U_4yU";

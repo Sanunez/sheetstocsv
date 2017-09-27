@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using sheetstocsv;
 
 namespace WpfApp1
 {
@@ -22,6 +23,8 @@ namespace WpfApp1
     {
         public MainWindow()
         {
+            sheetstocsv.Properties.Settings.Default.outputdir = "Test";
+            sheetstocsv.Properties.Settings.Default.Save();
             InitializeComponent();
         }
     }
