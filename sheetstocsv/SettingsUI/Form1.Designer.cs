@@ -46,6 +46,7 @@
             this.Legend_Label = new System.Windows.Forms.Label();
             this.Entity_Texbox = new System.Windows.Forms.TextBox();
             this.Entity_Label = new System.Windows.Forms.Label();
+            this.Log_Textbox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Columns_NumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Columns_DataGridView)).BeginInit();
             this.SuspendLayout();
@@ -159,7 +160,7 @@
             this.Save_Button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Save_Button.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Save_Button.Location = new System.Drawing.Point(15, 292);
+            this.Save_Button.Location = new System.Drawing.Point(15, 466);
             this.Save_Button.Name = "Save_Button";
             this.Save_Button.Size = new System.Drawing.Size(417, 63);
             this.Save_Button.TabIndex = 10;
@@ -215,7 +216,7 @@
             // 
             // Entity_Label
             // 
-            this.Entity_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Entity_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Entity_Label.AutoSize = true;
             this.Entity_Label.Location = new System.Drawing.Point(329, 129);
             this.Entity_Label.Name = "Entity_Label";
@@ -223,11 +224,25 @@
             this.Entity_Label.TabIndex = 16;
             this.Entity_Label.Text = "Entity";
             // 
+            // Log_Textbox
+            // 
+            this.Log_Textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Log_Textbox.Location = new System.Drawing.Point(15, 296);
+            this.Log_Textbox.Multiline = true;
+            this.Log_Textbox.Name = "Log_Textbox";
+            this.Log_Textbox.ReadOnly = true;
+            this.Log_Textbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.Log_Textbox.Size = new System.Drawing.Size(417, 164);
+            this.Log_Textbox.TabIndex = 17;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(444, 367);
+            this.ClientSize = new System.Drawing.Size(444, 541);
+            this.Controls.Add(this.Log_Textbox);
             this.Controls.Add(this.Entity_Label);
             this.Controls.Add(this.Entity_Texbox);
             this.Controls.Add(this.Legend_Label);
@@ -245,7 +260,7 @@
             this.Controls.Add(this.OutputDirectory_TextBox);
             this.Controls.Add(this.Outputdirectory_Label);
             this.Controls.Add(this.label1);
-            this.MinimumSize = new System.Drawing.Size(460, 406);
+            this.MinimumSize = new System.Drawing.Size(460, 580);
             this.Name = "Form1";
             this.Text = "Sheets2CSV Settings";
             ((System.ComponentModel.ISupportInitialize)(this.Columns_NumericUpDown)).EndInit();
@@ -275,6 +290,7 @@
         private System.Windows.Forms.Label Legend_Label;
         private System.Windows.Forms.TextBox Entity_Texbox;
         private System.Windows.Forms.Label Entity_Label;
+        private System.Windows.Forms.TextBox Log_Textbox;
     }
 }
 

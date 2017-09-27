@@ -14,10 +14,8 @@ using System.Collections.Specialized;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using System.Configuration;
-using SheetsQuickstart;
-using sheetstocsv;
+using SettingsUI;
 
-using Properties = sheetstocsv.Properties;
 using Data = Google.Apis.Sheets.v4.Data;
 
 namespace SheetsQuickstart
@@ -63,17 +61,15 @@ namespace SheetsQuickstart
                 ApplicationName = ApplicationName,
             });
             string path;
-
+         
             //Check for if configured
-            if (Properties.Settings.Default.configured == false)
+            if (SettingsUI.Properties.Settings.Default.configured == false)
             {
                 Console.WriteLine("Program has not been configured yet! Please Run SettingsUI first to start this program.");
                 Console.ReadLine();
                 Environment.Exit(0);
             }
-
-
-            path = Properties.Settings.Default.outputdir;
+            path = SettingsUI.Properties.Settings.Default.outputdir;
             path = path + "\\";
 
             // Define request parameters.

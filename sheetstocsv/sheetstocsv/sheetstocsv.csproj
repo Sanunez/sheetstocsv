@@ -154,5 +154,11 @@
   <ItemGroup>
     <Content Include="sheets2csv_tz9_icon.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SettingsUI\SettingsUI.csproj">
+      <Project>{7d5ac4bc-fd42-489a-8187-7afdd87ea95c}</Project>
+      <Name>SettingsUI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

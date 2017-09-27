@@ -127,14 +127,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sheetstocsv.exe" size="54680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettingsUI.exe" size="15872">
+      <assemblyIdentity name="SettingsUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aJQLMkvCb/yWlbJgRLHoIrM7cE2GIy7GMSesX0gPNcU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sheetstocsv.exe" size="53656">
       <assemblyIdentity name="sheetstocsv" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MLCVTpFwThXyQV3tHykpREMOWw+by3zM1bO8sqewGD8=</dsig:DigestValue>
+        <dsig:DigestValue>GVJ4fwxlqv31HzwIePc1tQaGSPVTTZc04WFcyzHFWJM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -195,13 +207,13 @@
       <dsig:DigestValue>cWyPqGaJ0rneWtDsuSkLwjozWJ9dfP98rYpNeuvmFnk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="sheetstocsv.exe.config" size="1719">
+  <file name="sheetstocsv.exe.config" size="587">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>HBKsheZnylS042yJqr6lajRt5pXN/6JCHDB2lVUp0lQ=</dsig:DigestValue>
+      <dsig:DigestValue>Ly9QypV3MkED9s98YorsT3Doqmjzkdj6QxJ+DPMlOm4=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
