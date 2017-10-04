@@ -127,26 +127,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettingsUI.exe" size="15872">
-      <assemblyIdentity name="SettingsUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aJQLMkvCb/yWlbJgRLHoIrM7cE2GIy7GMSesX0gPNcU=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sheetstocsv.exe" size="53656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sheetstocsv.exe" size="52632">
       <assemblyIdentity name="sheetstocsv" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GVJ4fwxlqv31HzwIePc1tQaGSPVTTZc04WFcyzHFWJM=</dsig:DigestValue>
+        <dsig:DigestValue>J4BXF27PPT0jCYl9bEfKuaYG9Vbs/BSLI5HJyjqy/24=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -198,6 +186,15 @@
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="Settings.txt" size="129">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XaomJ4+F/KhE2bbxMo5gb9EiJVVGt2MQ/spwZR2kgzE=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="sheets2csv_tz9_icon.ico" size="42246">
     <hash>
       <dsig:Transforms>
@@ -207,13 +204,13 @@
       <dsig:DigestValue>cWyPqGaJ0rneWtDsuSkLwjozWJ9dfP98rYpNeuvmFnk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="sheetstocsv.exe.config" size="587">
+  <file name="sheetstocsv.exe.config" size="427">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Ly9QypV3MkED9s98YorsT3Doqmjzkdj6QxJ+DPMlOm4=</dsig:DigestValue>
+      <dsig:DigestValue>jVQ/PC0AB6rUdZXS2MwOExfeG8ZJrvPwzFG8NXsSGWs=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

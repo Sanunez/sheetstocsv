@@ -1,0 +1,6 @@
+true
+C:\Users\nunezs\Desktop\Orgs
+1ouXfFRoVUJn0qFZ5IluKnVioeGoZj6Fg6ULq1om5Y-0
+4
+Contacts
+fname,lname,org_name,member_role

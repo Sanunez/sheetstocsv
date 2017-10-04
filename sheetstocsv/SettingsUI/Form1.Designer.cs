@@ -46,7 +46,7 @@
             this.Legend_Label = new System.Windows.Forms.Label();
             this.Entity_Texbox = new System.Windows.Forms.TextBox();
             this.Entity_Label = new System.Windows.Forms.Label();
-            this.Log_Textbox = new System.Windows.Forms.TextBox();
+            this.Log_richTextBox = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Columns_NumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Columns_DataGridView)).BeginInit();
             this.SuspendLayout();
@@ -224,25 +224,25 @@
             this.Entity_Label.TabIndex = 16;
             this.Entity_Label.Text = "Entity";
             // 
-            // Log_Textbox
+            // Log_richTextBox
             // 
-            this.Log_Textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Log_richTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Log_Textbox.Location = new System.Drawing.Point(15, 296);
-            this.Log_Textbox.Multiline = true;
-            this.Log_Textbox.Name = "Log_Textbox";
-            this.Log_Textbox.ReadOnly = true;
-            this.Log_Textbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Log_Textbox.Size = new System.Drawing.Size(417, 164);
-            this.Log_Textbox.TabIndex = 17;
+            this.Log_richTextBox.Location = new System.Drawing.Point(15, 288);
+            this.Log_richTextBox.Name = "Log_richTextBox";
+            this.Log_richTextBox.ReadOnly = true;
+            this.Log_richTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.Log_richTextBox.Size = new System.Drawing.Size(417, 172);
+            this.Log_richTextBox.TabIndex = 18;
+            this.Log_richTextBox.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 541);
-            this.Controls.Add(this.Log_Textbox);
+            this.Controls.Add(this.Log_richTextBox);
             this.Controls.Add(this.Entity_Label);
             this.Controls.Add(this.Entity_Texbox);
             this.Controls.Add(this.Legend_Label);
@@ -290,7 +290,7 @@
         private System.Windows.Forms.Label Legend_Label;
         private System.Windows.Forms.TextBox Entity_Texbox;
         private System.Windows.Forms.Label Entity_Label;
-        private System.Windows.Forms.TextBox Log_Textbox;
+        private System.Windows.Forms.RichTextBox Log_richTextBox;
     }
 }
 

@@ -8,11 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Configuration;
 using System.Collections.Specialized;
+using SettingsUI;
 
 namespace SettingsUI
 {
-
     public partial class Form1 : Form
     {
 
@@ -22,19 +23,29 @@ namespace SettingsUI
             Columns_DataGridView.RowCount = 1;
             Columns_DataGridView.ColumnCount = (int)Columns_NumericUpDown.Value;
             printSettings();
-
-            
         }
 
         private void printSettings()
         {
-            Log_Textbox.AppendText("Current Settings:\n");
-            Log_Textbox.AppendText("Output Directory: " + Properties.Settings.Default.outputdir + "\n");
-            Log_Textbox.AppendText("Spreadsheet ID: " + Properties.Settings.Default.spreadsheetID + "\n");
-            Log_Textbox.AppendText("Coulumns: " + Properties.Settings.Default.headernum + "\n");
-            Log_Textbox.AppendText("Entity Type: " + Properties.Settings.Default.Entity + "\n");
-            Log_Textbox.AppendText("Headers: " + Properties.Settings.Default.headers + "\n");
-            Log_Textbox.AppendText("\n");
+            if (File.Exists(@"Settings.txt"))
+            {
+                StreamReader config = new StreamReader(@"Settings.txt");
+                Log_richTextBox.AppendText("------------Current Settings------------");
+                Log_richTextBox.AppendText(Environment.NewLine);
+                config.ReadLine();
+                Log_richTextBox.AppendText("Output Directory: " + config.ReadLine() + Environment.NewLine);
+                Log_richTextBox.AppendText("Spreadsheet ID: " + config.ReadLine() + Environment.NewLine);
+                Log_richTextBox.AppendText("Coulumns: " + config.ReadLine() + Environment.NewLine);
+                Log_richTextBox.AppendText("Entity Type: " + config.ReadLine() + Environment.NewLine);
+                Log_richTextBox.AppendText("Headers: " + config.ReadLine() + Environment.NewLine);
+                Log_richTextBox.AppendText(Environment.NewLine);
+                config.Close();
+            }
+            else
+            {
+                Log_richTextBox.AppendText("------------No Settings Available------------");
+            }
+            
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
@@ -62,19 +73,31 @@ namespace SettingsUI
 
         private void Save_Button_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.outputdir = OutputDirectory_TextBox.Text;
-            Properties.Settings.Default.spreadsheetID = SpreadsheetID_Textbox.Text;
-            Properties.Settings.Default.Entity = Entity_Texbox.Text;
-            Properties.Settings.Default.headernum = (int)Columns_NumericUpDown.Value;
             string headers = "";
             for (int i = 0; i < (int)Columns_NumericUpDown.Value; i++)
             {
-                headers = headers + Columns_DataGridView.Rows[0].Cells[i].Value.ToString() + ",";
+                if(i == (int)Columns_NumericUpDown.Value-1)
+                {
+                    headers = headers + Columns_DataGridView.Rows[0].Cells[i].Value.ToString();
+                }
+                else
+                {
+                    headers = headers + Columns_DataGridView.Rows[0].Cells[i].Value.ToString() + ",";
+                }
+                
             }
-            Properties.Settings.Default.headers = headers;
-            Properties.Settings.Default.configured = true;
-            Properties.Settings.Default.Save();
+
+            StreamWriter config = new StreamWriter(@"Settings.txt");
+            config.WriteLine("true");
+            config.WriteLine(OutputDirectory_TextBox.Text);
+            config.WriteLine(SpreadsheetID_Textbox.Text);
+            config.WriteLine(Columns_NumericUpDown.Value.ToString());
+            config.WriteLine(Entity_Texbox.Text);
+            config.WriteLine(headers);
+            config.Close();
+
             printSettings();
+
             MessageBox.Show("Saving Complete!", "Settings", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             
         }
