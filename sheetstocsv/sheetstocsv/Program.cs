@@ -35,26 +35,44 @@ namespace SheetsQuickstart
         };
 
         static string configured, outputdir, spreadsheetID, headernum, entity, columns;
+        static char[] delimiterChars = { ',' };
 
         [STAThread]
         static void Main(string[] args)
         {
+            Console.WriteLine("Looking for Settings File in: " + Application.StartupPath);
+
             if (File.Exists("Settings.txt"))
             {
+                Console.WriteLine("Settings File Found!");
                 StreamReader infile = new StreamReader(@"Settings.txt");
                 configured = infile.ReadLine();
-                outputdir = infile.ReadLine();
-                spreadsheetID = infile.ReadLine();
-                headernum = infile.ReadLine();
-                entity = infile.ReadLine();
-                columns = infile.ReadLine();
-                infile.Close();
+                if (configured == "false")
+                {
+                    Console.WriteLine("Settings file has not been configured yet! Please Adjust Settings.");
+                    Console.Read();
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    outputdir = infile.ReadLine();
+                    spreadsheetID = infile.ReadLine();
+                    headernum = infile.ReadLine();
+                    entity = infile.ReadLine();
+                    columns = infile.ReadLine();
+                    infile.Close();
+                    Console.WriteLine("Settings recieved Successfully!");
+                }
+                
             }
             else
             {
-                Console.WriteLine("Program has not been configured yet! Please Run SettingsUI first to start this program.");
+                Console.WriteLine("Settings File Missing! Please Refer to documentation!!");
+                Console.Read();
                 Environment.Exit(0);
             }
+
+            
 
             #region Configuration Level
             string path = outputdir;
@@ -91,7 +109,19 @@ namespace SheetsQuickstart
                 // Define request parameters.
                 String spreadsheetId = spreadsheetID;
                 char let = (char)(64 + Convert.ToInt32(headernum));
-                string range = "A2:" + let;
+                string rows = "";
+                int lastrow = 2;
+                if(File.Exists("LastRun.txt"))
+                {
+                    StreamReader lastrun = new StreamReader("LastRun.txt");
+                    rows = lastrun.ReadLine();
+                    lastrun.Close();
+                }
+                else
+                {
+                    rows = "2";
+                }     
+                string range = "A" + rows + ":" + let;
 
                 SpreadsheetsResource.ValuesResource.GetRequest request = service.Spreadsheets.Values.Get(spreadsheetId, range);
 
@@ -110,15 +140,16 @@ namespace SheetsQuickstart
                 {
                     fileExist = false;
                 }
+                Console.Write(fileExist);
 
                 //Setup File IO
                 StreamWriter file = new StreamWriter(path+ entity + "_Sheet.csv", true);
                 StreamWriter injectionfile = new StreamWriter(path+entity+"_inject.csv");
 
                 //Set up Headers
-                string[] headers =new string[] 
-                {
-                    /*"+new_createdon",
+                string[] headers = columns.Split(delimiterChars);
+                /*{
+                    "+new_createdon",
                     "firstname",
                     "lastname",
                     "address1_postalcode",
@@ -126,12 +157,14 @@ namespace SheetsQuickstart
                     "telephone2",
                     "new_isprimaryphonecellphone",
                     "*new_besttimetocall",
-                    "subject"*/
+                    "subject"
+                    /*
                     "fname",
                     "lname",
                     "org_name",
                     "member_role"
                 };
+                */
                 
                 //Check for exisitng records
                 if (!fileExist)
@@ -142,86 +175,91 @@ namespace SheetsQuickstart
             #endregion
 
             #region Execution Level
-                //Handle Retrieved Data
-                if (values != null && values.Count > 0)
+            //Handle Retrieved Data
+            if (values != null && values.Count > 0)
+                {
+                    foreach (var row in values)
                     {
-                        foreach (var row in values)
+                        lastrow++;
+                        file.Write(entity + ", ");
+                        injectionfile.Write(entity + ", ");
+                        for(int i = 0; i < row.Count; i ++)
                         {
-                            file.Write(entity + ", ");
-                            injectionfile.Write(entity + ", ");
-                            for(int i = 0; i < row.Count; i ++)
+                            if(i == row.Count-1)
                             {
-                                if(i == row.Count-1)
+                                file.Write(row[i]);
+                                injectionfile.Write(row[i]);
+                            }
+                            if (headers[i] == "address1_postalcode")
+                            {
+                                string r = row[i].ToString();
+                                if (r.Length > 5)
                                 {
-                                    file.Write(row[i]);
-                                    injectionfile.Write(row[i]);
-                                }
-                                if (headers[i] == "address1_postalcode")
-                                {
-                                    string r = row[i].ToString();
-                                    if (r.Length > 5)
-                                    {
-                                        file.Write(r.Substring(0, 5)+", ");
-                                        injectionfile.Write(r.Substring(0, 5) + ", ");
-                                    }
-                                    else
-                                    {
-                                        file.Write(row[i] + ", ");
-                                        injectionfile.Write(row[i] + ", ");
-                                    }
-                                }
-                                else if (headers[i] == "telephone2")
-                                {
-                                    string val = row[i].ToString();
-                                    val = val.Replace("-", string.Empty);
-                                    val = val.Replace(" ", string.Empty);
-                                    val = val.Replace("(", string.Empty);
-                                    val = val.Replace(")", string.Empty);
-                                    val = val.Replace(".", string.Empty);
-                                    if (val.Length > 10){val = val.Substring(0, 10);}
-                                    file.Write(val + ", ");
-                                    injectionfile.Write(val + ", ");
-
-                                }
-                                else if (headers[i] == "new_isprimaryphonecellphone")
-                                {
-                                    if (row[i].ToString() == "Yes")
-                                    {
-                                        file.Write("TRUE" + ", ");
-                                        injectionfile.Write("TRUE" + ", ");
-                                    }
-                                    else
-                                    {
-                                        file.Write("FALSE" + ", ");
-                                        injectionfile.Write("FALSE" + ", ");
-                                    }
-                            
-                                }
-                                else if(headers[i] == "*new_besttimetocall")
-                                {
-                                    file.Write(callTime[row[i].ToString()] + ", ");
-                                    injectionfile.Write(callTime[row[i].ToString()] + ", ");
+                                    file.Write(r.Substring(0, 5)+", ");
+                                    injectionfile.Write(r.Substring(0, 5) + ", ");
                                 }
                                 else
                                 {
                                     file.Write(row[i] + ", ");
                                     injectionfile.Write(row[i] + ", ");
                                 }
-                        
                             }
-                            file.Write("\n");
-                            injectionfile.Write("\n");
+                            else if (headers[i] == "telephone2")
+                            {
+                                string val = row[i].ToString();
+                                val = val.Replace("-", string.Empty);
+                                val = val.Replace(" ", string.Empty);
+                                val = val.Replace("(", string.Empty);
+                                val = val.Replace(")", string.Empty);
+                                val = val.Replace(".", string.Empty);
+                                if (val.Length > 10){val = val.Substring(0, 10);}
+                                file.Write(val + ", ");
+                                injectionfile.Write(val + ", ");
+
+                            }
+                            else if (headers[i] == "new_isprimaryphonecellphone")
+                            {
+                                if (row[i].ToString() == "Yes")
+                                {
+                                    file.Write("TRUE" + ", ");
+                                    injectionfile.Write("TRUE" + ", ");
+                                }
+                                else
+                                {
+                                    file.Write("FALSE" + ", ");
+                                    injectionfile.Write("FALSE" + ", ");
+                                }
+                            
+                            }
+                            else if(headers[i] == "*new_besttimetocall")
+                            {
+                                file.Write(callTime[row[i].ToString()] + ", ");
+                                injectionfile.Write(callTime[row[i].ToString()] + ", ");
+                            }
+                            else
+                            {
+                                file.Write(row[i] + ", ");
+                                injectionfile.Write(row[i] + ", ");
+                            }
+                        
                         }
+                        file.Write("\n");
+                        injectionfile.Write("\n");
                     }
+                }
 
 
-                string ClearRange = "A2:Z";
-                Data.ClearValuesRequest requestBody = new Data.ClearValuesRequest();
-                SpreadsheetsResource.ValuesResource.ClearRequest clearRequest = service.Spreadsheets.Values.Clear(requestBody, spreadsheetId, ClearRange);
-                Data.ClearValuesResponse clearResponse = clearRequest.Execute();
+            /*string ClearRange = "A2:Z";
+            Data.ClearValuesRequest requestBody = new Data.ClearValuesRequest();
+            SpreadsheetsResource.ValuesResource.ClearRequest clearRequest = service.Spreadsheets.Values.Clear(requestBody, spreadsheetId, ClearRange);
+            Data.ClearValuesResponse clearResponse = clearRequest.Execute();*/
+            file.Close();
+            injectionfile.Close();
 
-                file.Close();
-                injectionfile.Close();
+            StreamWriter lastout = new StreamWriter("LastRun.txt");
+            lastout.WriteLine(lastrow);
+            lastout.WriteLine(DateTime.Today);
+            lastout.Close();
             #endregion
 
 

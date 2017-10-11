@@ -12,7 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\nunezs\Documents\Analyst Quick Drop\Sheets2CSV\Setup\</PublishUrl>
+    <PublishUrl>C:\Users\nunezs\Documents\Analyst Quick Drop\Sergio%27s Drops\VS Projects\Releases\Sheets2CSV\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,9 +24,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>Sheets 2 CSV</ProductName>
     <PublisherName>Sergio A. Nuñez</PublisherName>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>19</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -95,9 +96,6 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Net.Http.4.3.1\lib\net46\System.Net.Http.dll</HintPath>
-    </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
@@ -122,10 +120,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="client_secret.json">
+    <Content Include="client_secret.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
     </None>
-    <None Include="packages.config" />
     <None Include="Properties\app.manifest" />
     <None Include="sheetstocsv_TemporaryKey.pfx" />
   </ItemGroup>
@@ -142,10 +142,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\SettingsUI\bin\Debug\Settings.txt">
-      <Link>Settings.txt</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="sheets2csv_tz9_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
