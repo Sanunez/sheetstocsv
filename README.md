@@ -16,3 +16,9 @@
 1. **Execution Level**
 
     <p>At the Execution phase actual data is retrieved and processed. Data will be read from the Google Sheet, and be stored localy. Each row will be read in and copied over to Record File. Once Record is Written The row is processed by program and turned into an CRM Injection compatible .CSV file. The program will take note of where the last row was read in from and start from there next time it is run.</p>
+
+<h2><strong>Sheets2CSV Settings:</strong></h2>
+
+|User Interface|Description|
+|-|-|
+|![Alt](https://i.imgur.com/UzCLfB0.png "Title") |<p>The Sheets2CSV Settings application is alot more intuitive and user-friendly<br><br><strong>Output Directory:</strong> <br> This field directs the program as to where to place csv files<br></p> |
