@@ -185,11 +185,6 @@ namespace SheetsQuickstart
                         injectionfile.Write(entity + ", ");
                         for(int i = 0; i < row.Count; i ++)
                         {
-                            if(i == row.Count-1)
-                            {
-                                file.Write(row[i]);
-                                injectionfile.Write(row[i]);
-                            }
                             if (headers[i] == "address1_postalcode")
                             {
                                 string r = row[i].ToString();
@@ -235,6 +230,11 @@ namespace SheetsQuickstart
                             {
                                 file.Write(callTime[row[i].ToString()] + ", ");
                                 injectionfile.Write(callTime[row[i].ToString()] + ", ");
+                            }
+                            if (i == row.Count - 1)
+                            {
+                                file.Write(row[i]);
+                                injectionfile.Write(row[i]);
                             }
                             else
                             {
