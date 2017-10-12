@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< HEAD
     <PublishUrlHistory>C:\Users\nunezs\Documents\Analyst Quick Drop\Sergio%27s Drops\Sheets2CSV\Sheets2CSVApplication\|C:\Users\nunezs\Documents\Analyst Quick Drop\Sheets2CSV\Setup\|publish\</PublishUrlHistory>
+=======
+    <PublishUrlHistory>C:\Users\nunezs\Documents\Analyst Quick Drop\Sergio%27s Drops\VS Projects\Releases\Amandausethis\|C:\Users\nunezs\Documents\Analyst Quick Drop\Sergio%27s Drops\VS Projects\Releases\Sheets2CSV\|C:\Users\nunezs\Documents\Analyst Quick Drop\Sheets2CSV\Setup\|publish\</PublishUrlHistory>
+>>>>>>> 5485e8874b0eb9f2fd76de0bf01d52a43426dc0d
     <InstallUrlHistory />
     <SupportUrlHistory />
     <UpdateUrlHistory />
