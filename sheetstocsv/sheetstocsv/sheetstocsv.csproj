@@ -12,7 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\nunezs\Documents\Analyst Quick Drop\Sheets2CSV\Setup\</PublishUrl>
+    <PublishUrl>C:\Users\nunezs\Documents\Analyst Quick Drop\Sergio%27s Drops\Sheets2CSV\Sheets2CSVApplication\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,7 +24,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>Sheets 2 CSV</ProductName>
     <PublisherName>Sergio A. Nuñez</PublisherName>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>6</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -144,7 +144,6 @@
   <ItemGroup>
     <Content Include="..\SettingsUI\bin\Debug\Settings.txt">
       <Link>Settings.txt</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="sheets2csv_tz9_icon.ico" />
   </ItemGroup>

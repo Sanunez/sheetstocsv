@@ -7,3 +7,7 @@ C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\Se
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.exe
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.pdb
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Settings.txt
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.exe.manifest
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.application
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.exe.manifest
+C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.application

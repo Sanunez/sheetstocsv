@@ -39,9 +39,11 @@ namespace SheetsQuickstart
         [STAThread]
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Sheets2CSV");
             if (File.Exists("Settings.txt"))
             {
-                StreamReader infile = new StreamReader(@"Settings.txt");
+                Console.WriteLine("There Are Settings!!");
+                StreamReader infile = new StreamReader("Settings.txt");
                 configured = infile.ReadLine();
                 outputdir = infile.ReadLine();
                 spreadsheetID = infile.ReadLine();
@@ -55,6 +57,8 @@ namespace SheetsQuickstart
                 Console.WriteLine("Program has not been configured yet! Please Run SettingsUI first to start this program.");
                 Environment.Exit(0);
             }
+
+            Console.WriteLine("Moving On...");
 
             #region Configuration Level
             string path = outputdir;
@@ -113,7 +117,7 @@ namespace SheetsQuickstart
 
                 //Setup File IO
                 StreamWriter file = new StreamWriter(path+ entity + "_Sheet.csv", true);
-                StreamWriter injectionfile = new StreamWriter(path+entity+"_inject.csv");
+                StreamWriter injectionfile = new StreamWriter(path + entity+"_inject.csv");
 
                 //Set up Headers
                 string[] headers =new string[] 
@@ -149,7 +153,7 @@ namespace SheetsQuickstart
                         {
                             file.Write(entity + ", ");
                             injectionfile.Write(entity + ", ");
-                            for(int i = 0; i < row.Count; i ++)
+                            for(int i = 0; i < row.Count-1; i ++)
                             {
                                 if(i == row.Count-1)
                                 {
@@ -223,9 +227,7 @@ namespace SheetsQuickstart
                 file.Close();
                 injectionfile.Close();
             #endregion
-
-
-
+            
         }
     }
 }

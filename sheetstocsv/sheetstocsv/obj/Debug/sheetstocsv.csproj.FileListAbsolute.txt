@@ -29,4 +29,3 @@ C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\s
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\sheetstocsv.exe.manifest
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\sheetstocsv.application
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\obj\Debug\sheetstocsv.csproj.sheetstocsv.exe.config
-C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\sheetstocsv\bin\Debug\Settings.txt
