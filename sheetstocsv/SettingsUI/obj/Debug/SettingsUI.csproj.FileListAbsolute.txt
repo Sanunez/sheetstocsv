@@ -7,22 +7,7 @@ C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\Se
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.exe
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.pdb
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\Settings.txt
-<<<<<<< HEAD
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.exe.manifest
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.application
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.exe.manifest
 C:\Users\nunezs\Documents\GitHub\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.application
-=======
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.exe
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.pdb
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.csprojResolveAssemblyReference.cache
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.Form1.resources
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.csproj.GenerateResource.Cache
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.csproj.CoreCompileInputs.cache
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.exe
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.pdb
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.exe.manifest
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\bin\Debug\SettingsUI.application
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.exe.manifest
-C:\Users\nunezs\Desktop\sheets2csv\sheetstocsv\sheetstocsv\SettingsUI\obj\Debug\SettingsUI.application
->>>>>>> 5485e8874b0eb9f2fd76de0bf01d52a43426dc0d

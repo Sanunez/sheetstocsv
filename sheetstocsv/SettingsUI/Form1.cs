@@ -12,25 +12,24 @@ using System.Configuration;
 using System.Collections.Specialized;
 using SettingsUI;
 
-
 namespace SettingsUI
 {
     public partial class Form1 : Form
     {
-        static string prev;
 
         public Form1()
         {
             InitializeComponent();
             Columns_DataGridView.RowCount = 1;
             Columns_DataGridView.ColumnCount = (int)Columns_NumericUpDown.Value;
+            printSettings();
         }
 
-        private void printSettings(string path)
+        private void printSettings()
         {
-            if (File.Exists(path + "\\Settings.txt"))
+            if (File.Exists(@"Settings.txt"))
             {
-                StreamReader config = new StreamReader(path + "\\Settings.txt");
+                StreamReader config = new StreamReader(@"Settings.txt");
                 Log_richTextBox.AppendText("------------Current Settings------------");
                 Log_richTextBox.AppendText(Environment.NewLine);
                 config.ReadLine();
@@ -74,7 +73,6 @@ namespace SettingsUI
 
         private void Save_Button_Click(object sender, EventArgs e)
         {
-            prev = Settings_Output_Textbox.Text;
             string headers = "";
             for (int i = 0; i < (int)Columns_NumericUpDown.Value; i++)
             {
@@ -89,7 +87,7 @@ namespace SettingsUI
                 
             }
 
-            StreamWriter config = new StreamWriter(Settings_Output_Textbox.Text + "\\Settings.txt");
+            StreamWriter config = new StreamWriter(@"Settings.txt");
             config.WriteLine("true");
             config.WriteLine(OutputDirectory_TextBox.Text);
             config.WriteLine(SpreadsheetID_Textbox.Text);
@@ -98,16 +96,10 @@ namespace SettingsUI
             config.WriteLine(headers);
             config.Close();
 
-
-            printSettings(prev);
+            printSettings();
 
             MessageBox.Show("Saving Complete!", "Settings", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             
-        }
-
-        private void Settings_Output_Button_Click(object sender, EventArgs e)
-        {
-            Settings_Output_Textbox.Text = Clipboard.GetText();
         }
     }
 }
